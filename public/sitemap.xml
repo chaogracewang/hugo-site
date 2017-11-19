@@ -59,118 +59,8 @@
     
     <url>
     
-      <loc>/project/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/project/example-external-project/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/2016/04/getting-started-with-the-academic-framework-for-hugo/</loc>
-      <lastmod>2017-09-03T00:00:00-04:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/2016/04/customizing-the-homepage-with-widgets/</loc>
-      <lastmod>2016-04-19T00:00:00-04:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/2016/04/managing-content/</loc>
-      <lastmod>2016-04-18T00:00:00-04:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/2016/04/writing-content-with-markdown-latex-and-shortcodes/</loc>
-      <lastmod>2016-04-17T00:00:00-04:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/2016/04/frequently-asked-questions-faq/</loc>
-      <lastmod>2016-04-10T00:00:00-04:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/person-re-identification/</loc>
-      <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/2015/07/hello-r-markdown/</loc>
       <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/2014/03/migrate-from-jekyll-to-hugo/</loc>
-      <lastmod>2014-03-10T00:00:00-04:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/clothing-search/</loc>
-      <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication_types/1/</loc>
-      <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication_types/2/</loc>
-      <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
     </url>
     
   
@@ -197,47 +87,7 @@
     
     <url>
     
-      <loc>/tags/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/demo/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/project/econ-103/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/hugo/</loc>
-      <lastmod>2017-09-03T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/jekyll/</loc>
-      <lastmod>2014-03-10T00:00:00-04:00</lastmod>
-      <priority>0</priority>
     </url>
     
   
@@ -266,7 +116,6 @@
     <url>
     
       <loc>/project/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -276,7 +125,7 @@
     <url>
     
       <loc>/publication_types/</loc>
-      <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+      <lastmod>2017-11-13T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
