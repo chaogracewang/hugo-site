@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>/project/viz/</loc>
+      <lastmod>2017-11-19T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/publication/world-without-borders/</loc>
       <lastmod>2017-11-13T00:00:00+00:00</lastmod>
     </url>
@@ -87,6 +96,16 @@
     
     <url>
     
+      <loc>/tags/data-visualization/</loc>
+      <lastmod>2017-11-19T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/project/econ-103/</loc>
     </url>
     
@@ -116,6 +135,7 @@
     <url>
     
       <loc>/project/</loc>
+      <lastmod>2017-11-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -135,7 +155,7 @@
     <url>
     
       <loc>/categories/r/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+      <lastmod>2017-11-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -156,6 +176,16 @@
     
       <loc>/tags/regression/</loc>
       <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/shiny/</loc>
+      <lastmod>2017-11-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

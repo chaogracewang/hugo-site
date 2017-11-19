@@ -6,7 +6,20 @@
     <description>Recent content in Projects on Mallick Hossain</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2017 Mallick Hossain</copyright>
+    <lastBuildDate>Sun, 19 Nov 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/project/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Data Visualization</title>
+      <link>/project/viz/</link>
+      <pubDate>Sun, 19 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/viz/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://emallickhossain.shinyapps.io/shinyapp/&#34;&gt;Time Use Analysis&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Econ 103</title>

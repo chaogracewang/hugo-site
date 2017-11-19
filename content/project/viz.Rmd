@@ -1,0 +1,11 @@
+---
+title: "Data Visualization"
+author: "Mallick Hossain"
+date: 2017-11-19
+categories: ["R"]
+tags: ["Shiny", "data-visualization"]
+# Optional image to display on homepage (relative to `static/img/` folder).
+image_preview: "data-viz.jpg"
+---
+
+* [Time Use Analysis](https://emallickhossain.shinyapps.io/shinyapp/)
