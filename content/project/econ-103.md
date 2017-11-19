@@ -1,22 +1,20 @@
-+++
+---
 # Date this page was created.
-
 # Project title.
-title = "Econ 103"
+title: "Econ 103"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "stats.png"
+image_preview: "stats.png"
 
 # Project summary to display on homepage.
-summary = "Statistics for Economists"
+summary: "Statistics for Economists"
 
 # Tags: can be used for filtering projects.
-tags = ["teaching"]
+tags: ["teaching"]
 
 # Does the project detail page use math formatting?
-math = false
-
-+++
+math: false
+---
   
 ## Grades and Questions:
 
