@@ -75,6 +75,12 @@ params:
       icon_pack: "fa"
       link: "https://www.linkedin.com/in/mallickhossain/"
 
+# Taxonomies.
+taxonomies:
+  tag: "tags"
+  category: "categories"
+  publication_type: "publication_types"
+
 # Navigation Links
 # To link a homepage widget, specify the URL as a hash `#` followed by the
 # filename of the desired widget in your `content/home/` folder.
@@ -94,7 +100,7 @@ menu:
       weight: 3
 
     - name: "Teaching"
-      url: "#teaching"
+      url: "#projects"
       weight: 4
 
     - name: "Posts"
