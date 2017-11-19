@@ -1,0 +1,103 @@
+baseURL: "http://www.mallickhossain.com/"
+title: "Mallick Hossain"
+copyright: "&copy; 2017 Mallick Hossain"
+theme: "hugo-academic"
+enableEmoji: true
+footnotereturnlinkcontents: "↩"
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+preserveTaxonomyNames: true
+googleAnalytics: "UA-109523729-1"
+disqusShortname: "mallickhossain-com"
+
+blackfriday:
+# `true` opens external links in a new tab.
+  hrefTargetBlank: true 
+
+permalinks:
+  post: "/:year/:month/:slug/"
+
+params:
+# default, ocean, forest, coffee, or dark
+  color_theme: "ocean" 
+# default, classic, or playfair
+  font: "default" 
+  name: "Mallick Hossain"
+  role: "Economics PhD Candidate"
+  organization: "University of Pennsylvania"
+  organization_url: "https://economics.sas.upenn.edu/graduate-program/current-students/mallick-hossain"
+  avatar: "headshot_small.jpg"
+  email: "hossaine@sas.upenn.edu"
+  address: "430 McNeil Building <br> 3718 Locust Walk <br> Philadelphia PA 19104"
+  github: "emallickhossain"
+
+# Date and time format (Go"s date format: http://fuckinggodateformat.com)
+  date_format: "Jan 2, 2006"
+  time_format: "3:04 PM"
+  reading_time: true
+  comment_count: true
+  section_pager: false
+  math: true
+  highlight: true
+  highlight_languages: ["r"]
+  highlight_style: "github"
+
+# Enable native social sharing buttons?
+  sharing: true
+
+  publication_types:
+    - Uncategorized
+    - Conference proceedings
+    - Journal
+    - Work in progress
+    - Technical report
+    - Book
+    - Book chapter
+
+  social:
+    - icon: "envelope"
+      icon_pack: "fa"
+      link: "mailto:hossaine@sas.upenn.edu"
+
+    - icon: "google-scholar"
+      icon_pack: "ai"
+      link: "https://scholar.google.com/citations?user=22Vq08IAAAAJ&hl=en"
+
+    - icon: "github"
+      icon_pack: "fa"
+      link: "//github.com/emallickhossain"
+
+    - icon: "linkedin"
+      icon_pack: "fa"
+      link: "https://www.linkedin.com/in/mallickhossain/"
+
+# Navigation Links
+# To link a homepage widget, specify the URL as a hash `#` followed by the
+# filename of the desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+menu:
+  main:
+    - name: "Home"
+      url: "#about"
+      weight: 1
+
+    - name: "CV"
+      url: "https://docs.google.com/viewerng/viewer?url=https://github.com/emallickhossain/HossainCV/raw/master/HossainCV.pdf?dl%3D0&hl=en_US"
+      weight: 2
+
+    - name: "Research"
+      url: "#publications"
+      weight: 3
+
+    - name: "Teaching"
+      url: "#teaching"
+      weight: 4
+
+    - name: "Posts"
+      url: "#posts"
+      weight: 5
+
+    - name: "Contact"
+      url: "#contact"
+      weight: 6
+

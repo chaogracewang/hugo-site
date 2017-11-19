@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teaching on Mallick Hossain</title>
+    <link>/tags/teaching/</link>
+    <description>Recent content in Teaching on Mallick Hossain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy; 2017 Mallick Hossain</copyright>
+    <atom:link href="/tags/teaching/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Econ 103</title>
+      <link>/project/econ-103/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/econ-103/</guid>
+      <description>
+
+&lt;h2 id=&#34;grades-and-questions&#34;&gt;Grades and Questions:&lt;/h2&gt;
+
+&lt;p&gt;Your grades are posted on &lt;a href=&#34;https://canvas.upenn.edu/&#34; target=&#34;_blank&#34;&gt;Canvas&lt;/a&gt;. If you have questions, post them on &lt;a href=&#34;http://piazza.com&#34; target=&#34;_blank&#34;&gt;Piazza&lt;/a&gt;. My office hours are on Tuesdays from 8-9AM and on Wednesdays from 4-5PM (right before class). If you need to make an appointment, just email me.&lt;/p&gt;
+
+&lt;h2 id=&#34;course-documents&#34;&gt;Course Documents:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/syllabus.pdf&#34; target=&#34;_blank&#34;&gt;Syllabus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/HowToDoWell.pdf&#34; target=&#34;_blank&#34;&gt;How to do well in Econ 103&lt;/a&gt;: Some tips for the course.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/ClassicalProbability.pdf&#34; target=&#34;_blank&#34;&gt;Combinations and Permutations&lt;/a&gt;: A review&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/RandomVariablesHandout.pdf&#34; target=&#34;_blank&#34;&gt;Random Variables Handout&lt;/a&gt; Useful discussion about probability distributions: &lt;a href=&#34;http://people.stern.nyu.edu/adamodar/New_Home_Page/StatFile/statdistns.htm&#34; target=&#34;_blank&#34;&gt;NYU Stern&lt;/a&gt;, &lt;a href=&#34;http://blog.cloudera.com/blog/2015/12/common-probability-distributions-the-data-scientists-crib-sheet/&#34; target=&#34;_blank&#34;&gt;Cloudera&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.milkenreview.org/articles/extracting-the-signal-from-the-noise-7-tips-for-interpreting-macroeconomic-data&#34; target=&#34;_blank&#34;&gt;7 Tips for Interpreting Macroeconomic Data&lt;/a&gt; (Jason Furman, CEA Chairman) [&lt;a href=&#34;http://assets1c.milkeninstitute.org/assets/Publication/MIReview/PDF/26-38-MR72.pdf&#34; target=&#34;_blank&#34;&gt;pdf version&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.stat.ufl.edu/~aa/articles/agresti_caffo_2000.pdf&#34; target=&#34;_blank&#34;&gt;Confidence Interval Refinement (Add 2 Successes and 2 Failures)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;forecasting-and-polling-module&#34;&gt;Forecasting and Polling Module&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.pewresearch.org/methodology/u-s-survey-research/sampling/&#34; target=&#34;_blank&#34;&gt;Overview of Common Issues in Polling and Survey Design&lt;/a&gt; (Source: Pew Research)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/slides/ForecastingModule/pollsForecasting.pdf&#34; target=&#34;_blank&#34;&gt;Slides&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;r-project-resources&#34;&gt;R Project Resources:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/RProject.pdf&#34; target=&#34;_blank&#34;&gt;R Project Assignment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf&#34; target=&#34;_blank&#34;&gt;RMarkdown Cheatsheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/reporting-with-r-markdown&#34; target=&#34;_blank&#34;&gt;RMarkdown Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/slides/lecture25_child_test.pdf&#34; target=&#34;_blank&#34;&gt;Tips on Regression in R&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;lectures&#34;&gt;Lectures:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/slides/chapter01_handout.pdf&#34; target=&#34;_blank&#34;&gt;Chapter 1&lt;/a&gt; Background and Motivation [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/Quiz/quiz01_handout.pdf&#34; target=&#34;_blank&#34;&gt;Quiz&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/slides/chapter02_handout.pdf&#34; target=&#34;_blank&#34;&gt;Chapter 2&lt;/a&gt; Summary Statistics and Z-Scores [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/Quiz/quiz02_handout.pdf&#34; target=&#34;_blank&#34;&gt;Quiz&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/slides/chapter03_handout.pdf&#34; target=&#34;_blank&#34;&gt;Chapter 3&lt;/a&gt; Probability [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/Quiz/quiz03_handout.pdf&#34; target=&#34;_blank&#34;&gt;Quiz&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/slides/chapter04_handout.pdf&#34; target=&#34;_blank&#34;&gt;Chapter 4 (Updated)&lt;/a&gt; Random Variables (Discrete Version) [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/Quiz/quiz04_handout.pdf&#34; target=&#34;_blank&#34;&gt;Quiz&lt;/a&gt;] [&lt;a href=&#34;https://www.youtube.com/watch?v=hPf5GQDUcOo&#34; target=&#34;_blank&#34;&gt;Video&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/slides/chapter05_handout.pdf&#34; target=&#34;_blank&#34;&gt;Chapter 5&lt;/a&gt; Random Variables (Continuous Version) [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/Quiz/quiz05_handout.pdf&#34; target=&#34;_blank&#34;&gt;Quiz&lt;/a&gt;][&lt;a href=&#34;https://youtu.be/-SG9gLEP9H0&#34; target=&#34;_blank&#34;&gt;Video1&lt;/a&gt;][&lt;a href=&#34;https://youtu.be/nxOz0FwSAc0&#34; target=&#34;_blank&#34;&gt;Video2&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/slides/chapter06_handout.pdf&#34; target=&#34;_blank&#34;&gt;Chapter 6&lt;/a&gt; Sampling and Bias [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/Quiz/quiz06_handout.pdf&#34; target=&#34;_blank&#34;&gt;Quiz&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/slides/chapter07_handout.pdf&#34; target=&#34;_blank&#34;&gt;Chapter 7&lt;/a&gt; Confidence Intervals [&lt;a href=&#34;https://youtu.be/CWL1jlnyfYM&#34; target=&#34;_blank&#34;&gt;Video&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/slides/chapter08_handout.pdf&#34; target=&#34;_blank&#34;&gt;Chapter 8&lt;/a&gt; Hypothesis Testing [&lt;a href=&#34;https://youtu.be/REaBq7eaW1M&#34; target=&#34;_blank&#34;&gt;Video1&lt;/a&gt;] [&lt;a href=&#34;https://youtu.be/rwLeP8mIYkQ&#34; target=&#34;_blank&#34;&gt;Video2&lt;/a&gt;] [&lt;a href=&#34;https://youtu.be/8O6zC3IVhpg&#34; target=&#34;_blank&#34;&gt;Video3&lt;/a&gt;] [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/Quiz/quiz09.pdf&#34; target=&#34;_blank&#34;&gt;Quiz&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/slides/chapter09_handout.pdf&#34; target=&#34;_blank&#34;&gt;Chapter 9&lt;/a&gt; Regression [&lt;a href=&#34;https://youtu.be/dRIlfwrT22E&#34; target=&#34;_blank&#34;&gt;Video&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;practice-exams&#34;&gt;Practice Exams:&lt;/h2&gt;
+
+&lt;p&gt;Generously provided by &lt;a href=&#34;http://ditraglia.com/&#34; target=&#34;_blank&#34;&gt;Frank DiTraglia&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;midterm-1&#34;&gt;Midterm 1&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/midterm1_2012_10_03.pdf&#34; target=&#34;_blank&#34;&gt;Fall 2012&lt;/a&gt; [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/midterm1_2012_10_03_solutions.pdf&#34; title=&#34;midterm1_2012_10_03_solutions&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/midterm1_2013_02_11.pdf&#34; title=&#34;midterm1_2013_02_11&#34; target=&#34;_blank&#34;&gt;Spring 2013&lt;/a&gt; [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/midterm1_2013_02_11_solutions.pdf&#34; title=&#34;midterm1_2013_02_11_solutions&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/midterm1_2013_09_30.pdf&#34; title=&#34;midterm1_2013_09_30&#34; target=&#34;_blank&#34;&gt;Fall 2013&lt;/a&gt; [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/midterm1_2013_09_30_solutions.pdf&#34; title=&#34;midterm1_2013_09_30_solutions&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/midterm1_2014_02_11.pdf&#34; title=&#34;midterm1_2014_02_11&#34; target=&#34;_blank&#34;&gt;Spring 2014&lt;/a&gt; [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/midterm1_2014_02_11_solutions.pdf&#34; title=&#34;midterm1_2014_02_11_solutions&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/midterm1_2014_09_29.pdf&#34; title=&#34;midterm1_2014_09_29&#34; target=&#34;_blank&#34;&gt;Fall 2014&lt;/a&gt; [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/midterm1_2014_09_29_solutions.pdf&#34; title=&#34;midterm1_2014_09_29_solutions&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/midterm1_2015_02_10.pdf&#34; title=&#34;midterm1_2015_02_10&#34; target=&#34;_blank&#34;&gt;Spring 2015&lt;/a&gt; [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/midterm1_2015_02_10_solutions.pdf&#34; title=&#34;midterm1_2015_02_10_solutions&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/midterm1_2015_09_28.pdf&#34; title=&#34;midterm1_2015_09_28&#34; target=&#34;_blank&#34;&gt;Fall 2015&lt;/a&gt; [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/midterm1_2015_09_28_solutions.pdf&#34; title=&#34;midterm1_2015_09_28_solutions&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/midterm1_2016_02_16.pdf&#34; title=&#34;midterm1_2016_02_16&#34; target=&#34;_blank&#34;&gt;Spring 2016&lt;/a&gt; [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/midterm1_2016_02_16_solutions.pdf&#34; title=&#34;midterm1_2016_02_16_solutions&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;midterm-2&#34;&gt;Midterm 2&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/midterm2_2012_11_07.pdf&#34; title=&#34;midterm2_2012_11_07&#34; target=&#34;_blank&#34;&gt;Fall 2012&lt;/a&gt; [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/midterm2_2012_11_07_solutions.pdf&#34; title=&#34;midterm2_2012_11_07_solutions&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/midterm2_2013_03_25.pdf&#34; title=&#34;midterm2_2013_03_25&#34; target=&#34;_blank&#34;&gt;Spring 2013&lt;/a&gt; [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/midterm2_2013_03_25_solutions.pdf&#34; title=&#34;midterm2_2013_03_25_solutions&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/midterm2_2013_11_11.pdf&#34; title=&#34;midterm2_2013_11_11&#34; target=&#34;_blank&#34;&gt;Fall 2013&lt;/a&gt; [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/midterm2_2013_11_11_solutions.pdf&#34; title=&#34;midterm2_2013_11_11_solutions&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/midterm2_2014_03_25.pdf&#34; title=&#34;midterm2_2014_03_25&#34; target=&#34;_blank&#34;&gt;Spring 2014&lt;/a&gt; [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/midterm2_2014_03_25_solutions.pdf&#34; title=&#34;midterm2_2014_03_25_solutions&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/midterm2_2014_11_03.pdf&#34; title=&#34;midterm2_2014_11_03&#34; target=&#34;_blank&#34;&gt;Fall 2014&lt;/a&gt; [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/midterm2_2014_11_03_solutions.pdf&#34; title=&#34;midterm2_2014_11_03_solutions&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/midterm2_2015_03_24.pdf&#34; title=&#34;midterm2_2015_03_24&#34; target=&#34;_blank&#34;&gt;Spring 2015&lt;/a&gt; [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/midterm2_2015_03_24_solutions.pdf&#34; title=&#34;midterm2_2015_03_24_solutions&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/midterm2_2015_11_02.pdf&#34; title=&#34;midterm2_2015_11_02&#34; target=&#34;_blank&#34;&gt;Fall 2015&lt;/a&gt; [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/midterm2_2015_11_02_solutions.pdf&#34; title=&#34;midterm2_2015_11_02_solutions&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/midterm2_2016_03_22.pdf&#34; title=&#34;midterm2_2016_03_22&#34; target=&#34;_blank&#34;&gt;Spring 2016&lt;/a&gt; [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/midterm2_2016_03_22_solutions.pdf&#34; title=&#34;midterm2_2016_03_22_solutions&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;final&#34;&gt;Final&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/final_2012_12_12.pdf&#34; title=&#34;final_2012_12_12&#34; target=&#34;_blank&#34;&gt;Fall 2012&lt;/a&gt; [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/final_2012_12_12_solutions.pdf&#34; title=&#34;final_2012_12_12_solutions&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/final_2013_05_01.pdf&#34; title=&#34;final_2013_05_01&#34; target=&#34;_blank&#34;&gt;Spring 2013&lt;/a&gt; [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/final_2013_05_01_solutions.pdf&#34; title=&#34;final_2013_05_01_solutions&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/final_2013_12_19.pdf&#34; title=&#34;final_2013_12_19&#34; target=&#34;_blank&#34;&gt;Fall 2013&lt;/a&gt; [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/final_2013_12_19_solutions.pdf&#34; title=&#34;final_2013_12_19_solutions&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/final_2014_05_07.pdf&#34; title=&#34;final_2014_05_07&#34; target=&#34;_blank&#34;&gt;Spring 2014&lt;/a&gt; [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/final_2014_05_07_solutions.pdf&#34; title=&#34;final_2014_05_07_solutions&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/final_2014_12_16.pdf&#34; title=&#34;final_2014_12_16&#34; target=&#34;_blank&#34;&gt;Fall 2014&lt;/a&gt; [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/final_2014_12_16_solutions.pdf&#34; title=&#34;final_2014_12_16_solutions&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/final_2015_05_04.pdf&#34; title=&#34;final_2015_05_04&#34; target=&#34;_blank&#34;&gt;Spring 2015&lt;/a&gt; [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/final_2015_05_04_solutions.pdf&#34; title=&#34;final_2015_05_04_solutions&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/final_2015_12_11.pdf&#34; title=&#34;final_2015_12_11&#34; target=&#34;_blank&#34;&gt;Fall 2015&lt;/a&gt; [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/final_2015_12_11_solutions.pdf&#34; title=&#34;final_2015_12_11_solutions&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;homework&#34;&gt;Homework:&lt;/h2&gt;
+
+&lt;h4 id=&#34;week-1-https-docs-google-com-viewer-url-https-github-com-emallickhossain-econ103public-blob-master-homework-hw01-pdf-hw01&#34;&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/blob/master/homework/HW01.pdf&#34; title=&#34;HW01&#34; target=&#34;_blank&#34;&gt;Week 1&lt;/a&gt;&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://goo.gl/forms/Me9tNZaPlpogNvtV2&#34; target=&#34;_blank&#34;&gt;Class Survey&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/blob/master/MathDiagnostic/MathDiagnostic.pdf&#34; title=&#34;MathDiagnostic&#34; target=&#34;_blank&#34;&gt;Math Diagnostic Exam&lt;/a&gt; [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/blob/master/MathDiagnostic/MathDiagnosticSolns.pdf&#34; title=&#34;MathDiagnosticSolns&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/blob/master/homework/Ch1Problems.pdf&#34; title=&#34;Ch1Problems&#34; target=&#34;_blank&#34;&gt;Textbook Problems for Chapter 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rawgit.com/emallickhossain/Econ103Public/master/Rtutorials/Rtutorial1.html&#34; target=&#34;_blank&#34;&gt;R Tutorial 1&lt;/a&gt; [&lt;a href=&#34;https://github.com/emallickhossain/Econ103Public/blob/master/Rtutorials/Rtutorial1.R&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/emallickhossain/Econ103Public/blob/master/Rtutorials/try.R&#34; target=&#34;_blank&#34;&gt;Try R Transcript&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;week-2-https-docs-google-com-viewer-url-https-github-com-emallickhossain-econ103public-blob-master-homework-hw02-pdf-hw02-solutions-https-docs-google-com-viewer-url-https-github-com-emallickhossain-econ103public-blob-master-homework-hw02-solutions-pdf-hw02-solutions&#34;&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/blob/master/homework/HW02.pdf&#34; title=&#34;hw02&#34; target=&#34;_blank&#34;&gt;Week 2&lt;/a&gt; [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/blob/master/homework/HW02_solutions.pdf&#34; title=&#34;hw02_solutions&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;]&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/blob/master/homework/Ch2Problems.pdf&#34; title=&#34;ch2problems&#34; target=&#34;_blank&#34;&gt;Textbook Problems for Chapter 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rawgit.com/emallickhossain/Econ103Public/master/Rtutorials/Rtutorial2.html&#34; target=&#34;_blank&#34;&gt;R Tutorial 2&lt;/a&gt; [&lt;a href=&#34;https://github.com/emallickhossain/Econ103Public/blob/master/Rtutorials/Rtutorial2.R&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;week-3-https-docs-google-com-viewer-url-https-github-com-emallickhossain-econ103public-blob-master-homework-hw03-pdf-hw03-solutions-https-docs-google-com-viewer-url-https-github-com-emallickhossain-econ103public-blob-master-homework-hw03-solutions-pdf-hw03-solutions&#34;&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/blob/master/homework/HW03.pdf&#34; title=&#34;hw03&#34; target=&#34;_blank&#34;&gt;Week 3&lt;/a&gt; [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/blob/master/homework/HW03_solutions.pdf&#34; title=&#34;hw03_solutions&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;]&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/blob/master/homework/Ch3Problems.pdf&#34; title=&#34;ch3problems&#34; target=&#34;_blank&#34;&gt;Textbook Problems for Chapter 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rawgit.com/emallickhossain/Econ103Public/master/Rtutorials/Rtutorial3.html&#34; target=&#34;_blank&#34;&gt;R Tutorial 3&lt;/a&gt; [&lt;a href=&#34;https://github.com/emallickhossain/Econ103Public/blob/master/Rtutorials/Rtutorial3.R&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.math.uah.edu/stat/urn/Secretary.html&#34; target=&#34;_blank&#34;&gt;More Details on the Secretary Problem (Dating Problem)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;week-4-https-docs-google-com-viewer-url-https-github-com-emallickhossain-econ103public-blob-master-homework-hw04-pdf-hw04-solutions-https-docs-google-com-viewer-url-https-github-com-emallickhossain-econ103public-blob-master-homework-hw04-solutions-pdf-hw04-solutions&#34;&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/blob/master/homework/HW04.pdf&#34; title=&#34;hw04&#34; target=&#34;_blank&#34;&gt;Week 4&lt;/a&gt; [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/blob/master/homework/HW04_solutions.pdf&#34; title=&#34;hw04_solutions&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;]&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/blob/master/homework/Ch4Problems.pdf&#34; title=&#34;ch4problems&#34; target=&#34;_blank&#34;&gt;Textbook Problems for Chapter 4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;week-5-https-docs-google-com-viewer-url-https-github-com-emallickhossain-econ103public-blob-master-homework-hw05-pdf-hw05-solutions-https-docs-google-com-viewer-url-https-github-com-emallickhossain-econ103public-blob-master-homework-hw05-solutions-pdf-hw05-solutions&#34;&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/blob/master/homework/HW05.pdf&#34; title=&#34;hw05&#34; target=&#34;_blank&#34;&gt;Week 5&lt;/a&gt; [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/blob/master/homework/HW05_solutions.pdf&#34; title=&#34;hw05_solutions&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;]&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/blob/master/homework/Ch5Problems.pdf&#34; title=&#34;ch5problems&#34; target=&#34;_blank&#34;&gt;Textbook Problems for Chapter 5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rawgit.com/emallickhossain/Econ103Public/master/Rtutorials/Rtutorial4.html&#34; target=&#34;_blank&#34;&gt;R Tutorial 4&lt;/a&gt; [&lt;a href=&#34;https://github.com/emallickhossain/Econ103Public/blob/master/Rtutorials/Rtutorial4.R&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/Midterm1_92816_solutions.pdf&#34; target=&#34;_blank&#34;&gt;Midterm 1 Solutions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;week-6-https-docs-google-com-viewer-url-https-github-com-emallickhossain-econ103public-blob-master-homework-hw06-pdf-hw06-solutions-https-docs-google-com-viewer-url-https-github-com-emallickhossain-econ103public-blob-master-homework-hw06-solutions-pdf-hw06-solutions&#34;&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/blob/master/homework/HW06.pdf&#34; title=&#34;hw06&#34; target=&#34;_blank&#34;&gt;Week 6&lt;/a&gt; [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/blob/master/homework/HW06_solutions.pdf&#34; title=&#34;hw06_solutions&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;]&lt;/h4&gt;
+
+&lt;h4 id=&#34;week-7-https-docs-google-com-viewer-url-https-github-com-emallickhossain-econ103public-blob-master-homework-hw07-pdf-hw07update-solutions-https-docs-google-com-viewer-url-https-github-com-emallickhossain-econ103public-blob-master-homework-hw07-solutions-pdf-hw07-solutions&#34;&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/blob/master/homework/HW07.pdf&#34; title=&#34;hw07update&#34; target=&#34;_blank&#34;&gt;Week 7&lt;/a&gt; [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/blob/master/homework/HW07_solutions.pdf&#34; title=&#34;hw07_solutions&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;]&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/blob/master/homework/Ch6Problems.pdf&#34; title=&#34;ch6problems&#34; target=&#34;_blank&#34;&gt;Textbook Problems for Chapter 6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/blob/master/homework/Ch7Problems.pdf&#34; title=&#34;ch7problems&#34; target=&#34;_blank&#34;&gt;Textbook Problems for Chapter 7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/reporting-with-r-markdown&#34; target=&#34;_blank&#34;&gt;R Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;week-8-https-docs-google-com-viewer-url-https-github-com-emallickhossain-econ103public-blob-master-homework-hw08-pdf-hw08-solutions-https-docs-google-com-viewer-url-https-github-com-emallickhossain-econ103public-blob-master-homework-hw08-solutions-pdf-hw08-solutions&#34;&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/blob/master/homework/HW08.pdf&#34; title=&#34;hw08&#34; target=&#34;_blank&#34;&gt;Week 8&lt;/a&gt; [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/blob/master/homework/HW08_solutions.pdf&#34; title=&#34;hw08_solutions&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;]&lt;/h4&gt;
+
+&lt;h4 id=&#34;week-9-https-docs-google-com-viewer-url-https-github-com-emallickhossain-econ103public-blob-master-homework-hw09-pdf-hw08-solutions-https-docs-google-com-viewer-url-https-github-com-emallickhossain-econ103public-blob-master-homework-hw09-solutions-pdf-hw08-solutions&#34;&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/blob/master/homework/HW09.pdf&#34; title=&#34;hw08&#34; target=&#34;_blank&#34;&gt;Week 9&lt;/a&gt; [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/blob/master/homework/HW09_solutions.pdf&#34; title=&#34;hw08_solutions&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;]&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/PracticeExams/Midterm2_110216_solutions.pdf&#34; target=&#34;_blank&#34;&gt;Midterm 2 Solutions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/homework/conspiracy.pdf&#34; target=&#34;_blank&#34;&gt;Conspiracy Poll&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;week-10-https-docs-google-com-viewer-url-https-github-com-emallickhossain-econ103public-blob-master-homework-hw10-pdf-hw08-solutions-https-docs-google-com-viewer-url-https-github-com-emallickhossain-econ103public-blob-master-homework-hw10-solutions-pdf-hw08-solutions&#34;&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/blob/master/homework/HW10.pdf&#34; title=&#34;hw08&#34; target=&#34;_blank&#34;&gt;Week 10&lt;/a&gt; [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/blob/master/homework/HW10_solutions.pdf&#34; title=&#34;hw08_solutions&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;]&lt;/h4&gt;
+
+&lt;h4 id=&#34;week-11-https-docs-google-com-viewer-url-https-github-com-emallickhossain-econ103public-blob-master-homework-hw11-pdf-hw08-solutions-https-docs-google-com-viewer-url-https-github-com-emallickhossain-econ103public-blob-master-homework-hw11-solutions-pdf-hw08-solutions&#34;&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/blob/master/homework/HW11.pdf&#34; title=&#34;hw08&#34; target=&#34;_blank&#34;&gt;Week 11&lt;/a&gt; [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/blob/master/homework/HW11_solutions.pdf&#34; title=&#34;hw08_solutions&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;]&lt;/h4&gt;
+
+&lt;h4 id=&#34;week-12-https-docs-google-com-viewer-url-https-github-com-emallickhossain-econ103public-blob-master-homework-hw12-pdf-hw08-solutions-https-docs-google-com-viewer-url-https-github-com-emallickhossain-econ103public-blob-master-homework-hw12-solutions-pdf-hw08-solutions&#34;&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/blob/master/homework/HW12.pdf&#34; title=&#34;hw08&#34; target=&#34;_blank&#34;&gt;Week 12&lt;/a&gt; [&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/blob/master/homework/HW12_solutions.pdf&#34; title=&#34;hw08_solutions&#34; target=&#34;_blank&#34;&gt;Solutions&lt;/a&gt;]&lt;/h4&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
