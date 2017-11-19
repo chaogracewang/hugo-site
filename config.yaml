@@ -10,18 +10,22 @@ preserveTaxonomyNames: true
 googleAnalytics: "UA-109523729-1"
 disqusShortname: "mallickhossain-com"
 
+outputs:
+  home: ["HTML", "CSS", "RSS"]
+  section: [ "HTML", "RSS" ]
+
 blackfriday:
 # `true` opens external links in a new tab.
-  hrefTargetBlank: true 
+  hrefTargetBlank: true
 
 permalinks:
   post: "/:year/:month/:slug/"
 
 params:
 # default, ocean, forest, coffee, or dark
-  color_theme: "ocean" 
+  color_theme: "ocean"
 # default, classic, or playfair
-  font: "default" 
+  font: "default"
   name: "Mallick Hossain"
   role: "Economics PhD Candidate"
   organization: "University of Pennsylvania"
