@@ -27,7 +27,7 @@ abstract: "Since 2000, online shopping has grown dramatically as a share of tota
 abstract_short: ""
 
 # Featured image thumbnail (optional)
-image_preview: "no_borders.jpg"
+image_preview: "no_borders.png"
 
 # Is this a selected publication? (true/false)
 selected: false
@@ -57,8 +57,6 @@ highlight: true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image: "example.jpg"`.
 header:
-  image: "no_borders.jpg"
+  image: "no_borders.png"
   caption: ""
 ---
-
-More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.
