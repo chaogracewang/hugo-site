@@ -30,6 +30,7 @@ data.table is one of the most popular R packages and for good reason. It is powe
 
 ## Plotly
 Plotly makes creating beautiful, interactive charts effortless. It incorporates the Grammar of Graphics so you can control minute details of your chart if you desire. If not, the default templates are quite beautiful. In the chart below you can zoom in, isolate particular periods, and see the unemployment rate at any month you are interested in! Done are the days of static charts!
+
 ```{r, echo = FALSE, message = FALSE}
 library(Quandl)
 library(data.table)
