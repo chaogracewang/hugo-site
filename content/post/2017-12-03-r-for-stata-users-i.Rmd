@@ -1,0 +1,65 @@
+---
+title: R Crash Course I 
+author: Mallick Hossain
+date: '2017-12-16'
+slug: r-for-stata-users-i
+output:
+  blogdown::html_page:
+    toc: true
+categories:
+  - R
+  - Crash Course
+tags: []
+---
+
+# Reasons to Use R and RStudio
+R is a universal tool for all parts of research including data cleaning and analysis. However, it also has powerful tools for writing up your research in a reproducible and easily updatable way and generating a personal website to host your research. Instead of using numerous different tools and languages, you can do your research, writing, and publication all in one place, all in one language. This website, this post, and all of my research were written in R.
+
+In order to achieve this, you will need the following packages:
+
+* **data.table** - Data cleaning and analysis
+* **plotly** - Data visualization
+* **rmarkdown** - Writing research and slides
+* **blogdown** - Website generation
+
+To install, run `install.packages(c("data.table", "plotly", "rmarkdown", "blogdown"))` in RStudio.
+
+# Introduction to Packages
+## data.table
+data.table is one of the most popular R packages and for good reason. It is powerful and makes data cleaning and analysis effortless. Its optimized commands enable you to quickly download, subset, merge, sort, and reshape your data. For context, data.table is able to process (i.e. sum and average groups of data) 1 **billion** rows of data in less than a minute. And those benchmarks were run 3 years ago. It has significantly improved since then!
+
+## Plotly
+Plotly makes creating beautiful, interactive charts effortless. It incorporates the Grammar of Graphics so you can control minute details of your chart if you desire. If not, the default templates are quite beautiful. In the chart below you can zoom in, isolate particular periods, and see the unemployment rate at any month you are interested in! Done are the days of static charts!
+```{r, echo = FALSE, message = FALSE}
+library(Quandl)
+library(data.table)
+library(plotly)
+
+unemp <- setDT(Quandl(c("FRED/UNRATE", "FRED/USREC"), start_date = "1948-01-01"))
+setnames(unemp, c("date", "urate", "recession"))
+plot_ly(data = unemp, x = ~date) %>% 
+  add_lines(y = ~urate, name = "Unemployment") %>% 
+  add_lines(y = ~recession * 100,
+          line = list(width = 0),
+          fill = "tozerox",
+          fillcolor = "rgba(64, 64, 64, 0.2)",
+          showlegend = F,
+          hoverinfo = "none") %>% 
+  layout(title = "Unemployment Rate",
+       xaxis = list(title = "Year"),
+       yaxis = list(title = "Percent", range = c(0, 12), dtick = 2),
+       # Adjust margins so things look nice
+       margin = list(l = 80, r = 50, t = 60, b = 150, pad = 10),
+       annotations = list(text = "Source: FRED; BLS.",
+                          font = list(size = 10),
+                          showarrow = FALSE,
+                          align = "left", valign = "bottom",
+                          xref = "paper", x = -0.03,
+                          yref = "paper", y = -0.2))
+```
+
+## R Markdown
+R Markdown is the all-in-one tool for writing. You can use it to write research papers, blog posts, Beamer slides, books, and even dashboards! It uses the popular Markdown syntax, but it is paired with the powerful Pandoc converter that can process raw $\LaTeX$ when necessary. Furthermore, you can use R Markdown as you are conducting your research because it allows you to write text and evaluate code within its convenient notebook interface. My website was written using R Markdown.
+
+## Blogdown
+Blogdown enables you to create beautiful, static websites that can be easily hosted anywhere. Just register your domain and you are good to go! You can write your site in R Markdown like usual and Blogdown will render everything in the super-fast Hugo static site generator. My website was built using Blogdown.
