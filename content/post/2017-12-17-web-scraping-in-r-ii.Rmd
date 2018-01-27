@@ -1,0 +1,31 @@
+---
+title: Web Scraping Using R II
+author: Mallick Hossain
+date: '2017-12-16'
+slug: scraping-javascript
+draft: true
+output:
+  blogdown::html_page:
+    toc: true
+categories:
+  - R
+  - Scraping
+  - rvest
+  - JavaScript
+tags: []
+---
+
+# Introduction
+This is a tutorial for more advanced web scraping of JavaScript elements. I will use the same example as in my beginner web scraping [tutorial](www.mallickhossain.com/2017/12/scraping-with-rvest). In that example, I was scraping price and product information from Walmart.com for Kraft Macaroni and Cheese.^[It's the cheesiest.]
+
+This is because the HTML contains a lot of extra information that is not visible on the page and most of it was contained within JavaScript. The JavaScript contained a lot of fascinating extra information including the following:
+
+* Product name
+* UPC code
+* Seller's name and ID
+* Retail price
+* Sale price
+* In-store price
+* Quantity available (inventory)
+
+From an economic perspective, these extra fields are invaluable (especially the UPC code). The inventory count is also fascinating. 
