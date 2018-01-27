@@ -14,6 +14,33 @@
     
     <url>
     
+      <loc>/2017/12/data-table-analysis/</loc>
+      <lastmod>2017-12-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/2017/12/scraping-with-rvest/</loc>
+      <lastmod>2017-12-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/2017/12/scraping-javascript/</loc>
+      <lastmod>2017-12-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/project/viz/</loc>
       <lastmod>2017-11-19T00:00:00+00:00</lastmod>
     </url>
@@ -125,7 +152,27 @@
     
     <url>
     
+      <loc>/categories/data.table/</loc>
+      <lastmod>2017-12-16T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/project/econ-103/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/javascript/</loc>
+      <lastmod>2017-12-16T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -195,6 +242,26 @@
     
       <loc>/tags/regression/</loc>
       <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/rvest/</loc>
+      <lastmod>2017-12-16T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/scraping/</loc>
+      <lastmod>2017-12-16T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
