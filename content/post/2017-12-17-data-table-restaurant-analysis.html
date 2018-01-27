@@ -1,0 +1,133 @@
+---
+title: R Crash Course II
+author: Mallick Hossain
+date: '2017-12-16'
+slug: data-table-analysis
+draft: true
+output:
+  blogdown::html_page:
+    toc: true
+categories:
+  - R
+  - Crash Course
+  - data.table
+tags: []
+---
+
+
+<div id="TOC">
+<ul>
+<li><a href="#intro">Intro</a></li>
+<li><a href="#downloading-data">Downloading Data</a><ul>
+<li><a href="#data-structure">Data Structure</a></li>
+<li><a href="#avoiding-common-mistakes">Avoiding Common Mistakes</a></li>
+</ul></li>
+</ul>
+</div>
+
+<div id="intro" class="section level1">
+<h1>Intro</h1>
+<p>This tutorial will demonstrate the power of <code>data.table</code> for cleaning and analyzing data. I will apply it to New York City’s Restaurant Inspection data.<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a> As a quick background, since 2010, New York City has required restaurants to post their health grades and inspection results. During inspection, for every health code violation, a restaurant earns points. Therefore, the lower a restaurant’s score, the safer the restaurant. With that out of the way, let’s dig into the data like it’s a delicious slice of New York style pizza.<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a></p>
+<p>To guide ourselves, we will try to answer two questions:</p>
+<ol style="list-style-type: decimal">
+<li><strong>Which borough has the safest food?</strong></li>
+<li><strong>Which type of cuisine has the safest food?</strong></li>
+</ol>
+</div>
+<div id="downloading-data" class="section level1">
+<h1>Downloading Data</h1>
+<p>In order to produce high-quality research, your data analysis and cleaning should be clear and transparent. That means your code should document every step from downloading the raw data to polishing your cleaned data that you ultimately run your analysis on. <code>data.table</code> makes it easy to go from source to solution. Let’s download our data.</p>
+<pre class="r"><code>library(data.table)
+food &lt;- fread(&quot;https://data.cityofnewyork.us/api/views/43nn-pn8j/rows.csv?accessType=DOWNLOAD&quot;)</code></pre>
+<pre><code>## Warning in fread(&quot;./food.csv&quot;): Bumped column 7 to type character on data
+## row 505, field contains &#39;__________&#39;. Coercing previously read values in
+## this column from logical, integer or numeric back to character which may
+## not be lossless; e.g., if &#39;00&#39; and &#39;000&#39; occurred before they will now
+## be just &#39;0&#39;, and there may be inconsistencies with treatment of &#39;,,&#39; and
+## &#39;,NA,&#39; too (if they occurred in this column before the bump). If this
+## matters please rerun and set &#39;colClasses&#39; to &#39;character&#39; for this column.
+## Please note that column type detection uses a sample of 1,000 rows (100
+## rows at 10 points) so hopefully this message should be very rare. If
+## reporting to datatable-help, please rerun and include the output from
+## verbose=TRUE.</code></pre>
+<p>Uh oh, we got a warning message! The good thing is that the error is quite informative. <code>data.table</code> did the right thing and we can rest easy.<a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a></p>
+<div id="data-structure" class="section level2">
+<h2>Data Structure</h2>
+<p>Now what does our data look like? One easy way of examining the data is to use the <code>str()</code> command (which is short for “structure”). We see that the data is organized as a data.table and every column is stored as a character except CAMIS and SCORE.</p>
+<pre class="r"><code>str(food)</code></pre>
+<pre><code>## Classes &#39;data.table&#39; and &#39;data.frame&#39;:   390508 obs. of  18 variables:
+##  $ CAMIS                : int  50002395 40885333 50007460 40368157 40937978 50007874 41194745 41327743 41414060 41690753 ...
+##  $ DBA                  : chr  &quot;EMPIRE SZECHUAN VILLAGE&quot; &quot;SWISS INTERNATIONAL AIRLINES LOUNGE&quot; &quot;KRUST PIZZA&quot; &quot;ELEPHANT &amp; CASTLE&quot; ...
+##  $ BORO                 : chr  &quot;STATEN ISLAND&quot; &quot;QUEENS&quot; &quot;MANHATTAN&quot; &quot;MANHATTAN&quot; ...
+##  $ BUILDING             : chr  &quot;4373&quot; &quot;4&quot; &quot;226&quot; &quot;68&quot; ...
+##  $ STREET               : chr  &quot;AMBOY ROAD&quot; &quot;JFK INTERNATIONAL AIRPORT&quot; &quot;E 14TH ST&quot; &quot;GREENWICH AVENUE&quot; ...
+##  $ ZIPCODE              : chr  &quot;10312&quot; &quot;11430&quot; &quot;10003&quot; &quot;10011&quot; ...
+##  $ PHONE                : chr  &quot;7182272888&quot; &quot;7187514940&quot; &quot;2125108869&quot; &quot;2122431400&quot; ...
+##  $ CUISINE DESCRIPTION  : chr  &quot;Chinese&quot; &quot;American&quot; &quot;Pizza&quot; &quot;American&quot; ...
+##  $ INSPECTION DATE      : chr  &quot;12/01/2015&quot; &quot;12/10/2014&quot; &quot;12/19/2017&quot; &quot;05/22/2015&quot; ...
+##  $ ACTION               : chr  &quot;Violations were cited in the following area(s).&quot; &quot;Violations were cited in the following area(s).&quot; &quot;Violations were cited in the following area(s).&quot; &quot;Violations were cited in the following area(s).&quot; ...
+##  $ VIOLATION CODE       : chr  &quot;06C&quot; &quot;04H&quot; &quot;04L&quot; &quot;06F&quot; ...
+##  $ VIOLATION DESCRIPTION: chr  &quot;Food not protected from potential source of contamination during storage, preparation, transportation, display or service.&quot; &quot;Raw, cooked or prepared food is adulterated, contaminated, cross-contaminated, or not discarded in accordance with HACCP plan.&quot; &quot;Evidence of mice or live mice present in facility&#39;s food and/or non-food areas.&quot; &quot;Wiping cloths soiled or not stored in sanitizing solution.&quot; ...
+##  $ CRITICAL FLAG        : chr  &quot;Critical&quot; &quot;Critical&quot; &quot;Critical&quot; &quot;Critical&quot; ...
+##  $ SCORE                : int  21 13 24 12 7 10 7 32 7 7 ...
+##  $ GRADE                : chr  &quot;&quot; &quot;&quot; &quot;Z&quot; &quot;&quot; ...
+##  $ GRADE DATE           : chr  &quot;&quot; &quot;&quot; &quot;12/19/2017&quot; &quot;&quot; ...
+##  $ RECORD DATE          : chr  &quot;01/02/2018&quot; &quot;01/02/2018&quot; &quot;01/02/2018&quot; &quot;01/02/2018&quot; ...
+##  $ INSPECTION TYPE      : chr  &quot;Cycle Inspection / Initial Inspection&quot; &quot;Cycle Inspection / Initial Inspection&quot; &quot;Cycle Inspection / Re-inspection&quot; &quot;Cycle Inspection / Initial Inspection&quot; ...
+##  - attr(*, &quot;.internal.selfref&quot;)=&lt;externalptr&gt;</code></pre>
+</div>
+<div id="avoiding-common-mistakes" class="section level2">
+<h2>Avoiding Common Mistakes</h2>
+<p>Now, before we go much further, let’s take a second and avoid some common traps.</p>
+<p><strong>Premature Optimization/Organization:</strong> The data types are incorrect and there are entries that should be cleaned up. For example, there is a phone number entry “_________” that should be replaced with a blank value. We could convert the dates to <code>Date</code> types and ZIP codes to <code>integer</code> types. However, our mission is to analyze food safety by borough and cuisine. This does not require information about dates or ZIP codes. Do not get distracted. We can organize this if this data will become an instrumental part of our future research. For now, it is too early to organize and optimize the data. This mistake is common because it’s not a question of “if” (because you should clean and organize any data that you use), but a question of “when” (and for initial analysis, the time is not now).</p>
+<p><strong>Too Many Variables:</strong> Decide what you actually need for your analysis. It is easy to get carried away exploring the data and forgetting what you meant to do. If you come up with new questions for analysis, write them down for later and revisit them once you finish your intended task. Furthermore, as you deal with bigger and bigger datasets, it will be infeasible to load everything into memory. Therefore, you must select the subset that you actually need. This also helps ensure you keep focused on the mission.</p>
+<p>Let’s apply this thinking to our problem. First, <strong>variables</strong>, what do we need? We only care about the safety scores of restaurants by borough and cuisine. Therefore, we need BORO, CUISINE DESCRIPTION, and SCORE. There are also a lot of different inspection types and inspection dates, let’s keep those because we will want to look at changes over time and only look at routine food inspections. We also want to keep the restaurant ID (CAMIS) so we can tell different observations apart.</p>
+<pre class="r"><code>food &lt;- food[, .(CAMIS, `INSPECTION TYPE`, `INSPECTION DATE`, BORO, `CUISINE DESCRIPTION`, SCORE)]
+print(food)</code></pre>
+<pre><code>##            CAMIS                               INSPECTION TYPE
+##      1: 50002395         Cycle Inspection / Initial Inspection
+##      2: 40885333         Cycle Inspection / Initial Inspection
+##      3: 50007460              Cycle Inspection / Re-inspection
+##      4: 40368157         Cycle Inspection / Initial Inspection
+##      5: 40937978              Cycle Inspection / Re-inspection
+##     ---                                                       
+## 390504: 40865946              Cycle Inspection / Re-inspection
+## 390505: 50002502       Smoke-Free Air Act / Initial Inspection
+## 390506: 41139263              Cycle Inspection / Re-inspection
+## 390507: 50047736 Pre-permit (Operational) / Initial Inspection
+## 390508: 50046278      Pre-permit (Operational) / Re-inspection
+##         INSPECTION DATE          BORO CUISINE DESCRIPTION SCORE
+##      1:      12/01/2015 STATEN ISLAND             Chinese    21
+##      2:      12/10/2014        QUEENS            American    13
+##      3:      12/19/2017     MANHATTAN               Pizza    24
+##      4:      05/22/2015     MANHATTAN            American    12
+##      5:      11/06/2014         BRONX            American     7
+##     ---                                                        
+## 390504:      10/07/2016     MANHATTAN             Seafood     5
+## 390505:      10/03/2014     MANHATTAN      Middle Eastern    NA
+## 390506:      01/07/2015     MANHATTAN             Italian    15
+## 390507:      10/13/2016      BROOKLYN              French     6
+## 390508:      06/27/2016         BRONX             Chicken    11</code></pre>
+<p>Now we’re cookin’!<a href="#fn4" class="footnoteRef" id="fnref4"><sup>4</sup></a> This is already looking like some data we can handle!</p>
+<pre class="r"><code>avg_score_borough &lt;- food[, .(Score = mean(SCORE, na.rm = TRUE)), by = BORO]
+print(avg_score_borough)</code></pre>
+<pre><code>##             BORO    Score
+## 1: STATEN ISLAND 19.44175
+## 2:        QUEENS 18.57633
+## 3:     MANHATTAN 19.03793
+## 4:         BRONX 18.12669
+## 5:      BROOKLYN 19.29889
+## 6:       Missing 17.27273</code></pre>
+<p>Surprisingly, the Bronx has the safest restaurants on average!<a href="#fn5" class="footnoteRef" id="fnref5"><sup>5</sup></a></p>
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Delicious food is fun, food poisoning isn’t.<a href="#fnref1">↩</a></p></li>
+<li id="fn2"><p>Pizza is delicious no matter where you are.<a href="#fnref2">↩</a></p></li>
+<li id="fn3"><p>If you want details, basically, <code>data.table</code> thought column 7 was an integer or numeric column, but had to convert that to a character instead. It turns out <code>data.table</code>’s initial guess was actually right (since column 7 is for phone numbers), but the “_______” is not numeric, so to try and preserve data, <code>data.table</code> read in column 7 as a string. <code>fread()</code> guesses the column type by working its way through the ordered list <code>logical</code>, <code>integer</code>, <code>integer64</code>, <code>double</code>, and <code>character</code><a href="#fnref3">↩</a></p></li>
+<li id="fn4"><p>pun intended<a href="#fnref4">↩</a></p></li>
+<li id="fn5"><p>It turns out there are a lot of mistakes in the above analysis. I will correct them in the next post. To name a few, first, this is pooled across all inspection types and we likely just care about regular food safety inspections. Second, an observation in this data set is a restaurant violation and hence restaurants with more violations show up multiple times with the same score. We will need to remove duplicate restaurant grades. Finally, these scores are across 2014-2017. Splitting up by year would be better to identify improvement.<a href="#fnref5">↩</a></p></li>
+</ol>
+</div>

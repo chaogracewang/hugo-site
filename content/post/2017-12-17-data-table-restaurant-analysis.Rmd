@@ -1,0 +1,72 @@
+---
+title: R Crash Course II
+author: Mallick Hossain
+date: '2017-12-16'
+slug: data-table-analysis
+draft: true
+output:
+  blogdown::html_page:
+    toc: true
+categories:
+  - R
+  - Crash Course
+  - data.table
+tags: []
+---
+
+# Intro
+This tutorial will demonstrate the power of `data.table` for cleaning and analyzing data. I will apply it to New York City's Restaurant Inspection data.^[Delicious food is fun, food poisoning isn't.] As a quick background, since 2010, New York City has required restaurants to post their health grades and inspection results. During inspection, for every health code violation, a restaurant earns points. Therefore, the lower a restaurant's score, the safer the restaurant. With that out of the way, let's dig into the data like it's a delicious slice of New York style pizza.^[Pizza is delicious no matter where you are.]
+
+To guide ourselves, we will try to answer two questions: 
+
+1. **Which borough has the safest food?**
+2. **Which type of cuisine has the safest food?**
+
+# Downloading Data
+In order to produce high-quality research, your data analysis and cleaning should be clear and transparent. That means your code should document every step from downloading the raw data to polishing your cleaned data that you ultimately run your analysis on. `data.table` makes it easy to go from source to solution. Let's download our data.
+
+```{r, echo = TRUE, eval = FALSE}
+library(data.table)
+food <- fread("https://data.cityofnewyork.us/api/views/43nn-pn8j/rows.csv?accessType=DOWNLOAD",
+              select = c("CAMIS", "INSPECTION TYPE", "INSPECTION DATE", "BORO", 
+                         "CUISINE DESCRIPTION", "SCORE"))
+```
+```{r, echo = FALSE, eval = FALSE}
+fwrite(food, "./food.csv")
+```
+```{r, echo = FALSE, eval = TRUE}
+library(data.table)
+food <- fread("./food.csv")
+```
+
+Uh oh, we got a warning message! The good thing is that the error is quite informative. `data.table` did the right thing and we can rest easy.^[If you want details, basically, `data.table` thought column 7 was an integer or numeric column, but had to convert that to a character instead. It turns out `data.table`'s initial guess was actually right (since column 7 is for phone numbers), but the "_______" is not numeric, so to try and preserve data, `data.table` read in column 7 as a string. `fread()` guesses the column type by working its way through the ordered list `logical`, `integer`, `integer64`, `double`, and `character`]
+
+## Data Structure
+Now what does our data look like? One easy way of examining the data is to use the `str()` command (which is short for "structure"). We see that the data is organized as a data.table and every column is stored as a character except CAMIS and SCORE. 
+
+```{r}
+str(food)
+```
+
+## Avoiding Common Mistakes
+Now, before we go much further, let's take a second and avoid some common traps. 
+
+**Premature Optimization/Organization:** The data types are incorrect and there are entries that should be cleaned up. For example, there is a phone number entry "_________" that should be replaced with a blank value. We could convert the dates to `Date` types and ZIP codes to `integer` types. However, our mission is to analyze food safety by borough and cuisine. This does not require information about dates or ZIP codes. Do not get distracted. We can organize this if this data will become an instrumental part of our future research. For now, it is too early to organize and optimize the data. This mistake is common because it's not a question of "if" (because you should clean and organize any data that you use), but a question of "when" (and for initial analysis, the time is not now).
+
+**Too Many Variables:** Decide what you actually need for your analysis. It is easy to get carried away exploring the data and forgetting what you meant to do. If you come up with new questions for analysis, write them down for later and revisit them once you finish your intended task. Furthermore, as you deal with bigger and bigger datasets, it will be infeasible to load everything into memory. Therefore, you must select the subset that you actually need. This also helps ensure you keep focused on the mission. 
+
+Let's apply this thinking to our problem. First, **variables**, what do we need? We only care about the safety scores of restaurants by borough and cuisine. Therefore, we need BORO, CUISINE DESCRIPTION, and SCORE. There are also a lot of different inspection types and inspection dates, let's keep those because we will want to look at changes over time and only look at routine food inspections. We also want to keep the restaurant ID (CAMIS) so we can tell different observations apart.
+
+```{r}
+food <- food[, .(CAMIS, `INSPECTION TYPE`, `INSPECTION DATE`, BORO, `CUISINE DESCRIPTION`, SCORE)]
+print(food)
+```
+
+Now we're cookin'!^[pun intended] This is already looking like some data we can handle!
+
+```{r}
+avg_score_borough <- food[, .(Score = mean(SCORE, na.rm = TRUE)), by = BORO]
+print(avg_score_borough)
+```
+
+Surprisingly, the Bronx has the safest restaurants on average!^[It turns out there are a lot of mistakes in the above analysis. I will correct them in the next post. To name a few, first, this is pooled across all inspection types and we likely just care about regular food safety inspections. Second, an observation in this data set is a restaurant violation and hence restaurants with more violations show up multiple times with the same score. We will need to remove duplicate restaurant grades. Finally, these scores are across 2014-2017. Splitting up by year would be better to identify improvement.]
