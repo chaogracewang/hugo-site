@@ -94,7 +94,7 @@ plot_geo(stateFines, locationmode = "USA-states") %>%
   layout(title = "Fines and Forfeits as Percent of Own Revenues (2015)", geo = g)
 ```
 
-# County Fines and Forfeits
+# County Fines and Forfeits and Parking
 Given that most traffic tickets are likely issued by city and county police officers, maybe these are the governments that are more reliant upon those revenues. I do a similar analysis as above, but focusing on county governments to see if we can find any governments that are more dependent than the states are. Overall, counties are only moderately reliant upon fines and forfeits, but there are a few notable counties that rely upon fines and forfeits for over 20% of their revenue. These counties are likely to be affected by traffic fines.
 
 Overall, the Annual Survey only covers about half of the counties, so a fair amount are missing, but of those surveyed, there appears to be limited reliance by states and counties on fines and forfeitures for revenues. However, to the extent that non-respondent governments tend to be rural counties in the Midwest and South, there may be severe non-response bias and these governments' reliance on fines and forfeitures may differ substantially from those governments that responded to the survey. This may be especially true given what the Atlanta Journal-Consitution found. Most of those counties around I-75 that issue a lot of tickets per capita are missing from the Census' Survey. 
