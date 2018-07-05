@@ -4,9 +4,9 @@ author: "Mallick Hossain"
 date: "July 5, 2018"
 slug: mle-in-r
 draft: false
-output: html_document
-  # blogdown::html_page:
-  #   toc: true
+output:
+  blogdown::html_page:
+    toc: true
 categories:
   - R
   - Maximum Likelihood Estimation
