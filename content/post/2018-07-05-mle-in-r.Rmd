@@ -1,7 +1,7 @@
 ---
 title: "MLE in R"
 author: "Mallick Hossain"
-date: "July 5, 2018"
+date: "2018-07-05"
 slug: mle-in-r
 draft: false
 output:
@@ -105,7 +105,7 @@ Now we have a function which will output the log-likelihood for given values of 
 
 ```{r, warning=FALSE}
 theta1 <- c(0.1, 0.1, 0.1)
-out <- nlm(logl, theta1, data = z)
+out <- suppressWarnings(nlm(logl, theta1, data = z))
 ```
 
 Let's see how the MLE estimates compare to our true parameters.
