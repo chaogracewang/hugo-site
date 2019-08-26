@@ -18,7 +18,7 @@ math: false
   
 ## Grades and Questions:
 
-Your grades are posted on [Canvas](https://canvas.upenn.edu/). If you have questions, post them on [Piazza](http://piazza.com). My office hours are on Tuesdays from 8-9AM and on Wednesdays from 4-5PM (right before class). If you need to make an appointment, just email me.
+Your grades are posted on [Canvas](https://canvas.upenn.edu/). If you have questions, post them on [Piazza](https://piazza.com). My office hours are on Tuesdays from 8-9AM and on Wednesdays from 4-5PM (right before class). If you need to make an appointment, just email me.
 
 ## Course Documents:
 
@@ -26,11 +26,11 @@ Your grades are posted on [Canvas](https://canvas.upenn.edu/). If you have quest
 - [How to do well in Econ 103](https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/HowToDoWell.pdf): Some tips for the course. 
 - [Combinations and Permutations](https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/ClassicalProbability.pdf): A review 
 - [Random Variables Handout](https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/RandomVariablesHandout.pdf) Useful discussion about probability distributions: [NYU Stern](http://people.stern.nyu.edu/adamodar/New_Home_Page/StatFile/statdistns.htm), [Cloudera](http://blog.cloudera.com/blog/2015/12/common-probability-distributions-the-data-scientists-crib-sheet/) 
-- [7 Tips for Interpreting Macroeconomic Data](http://www.milkenreview.org/articles/extracting-the-signal-from-the-noise-7-tips-for-interpreting-macroeconomic-data) (Jason Furman, CEA Chairman) [[pdf version](http://assets1c.milkeninstitute.org/assets/Publication/MIReview/PDF/26-38-MR72.pdf)]
-- [Confidence Interval Refinement (Add 2 Successes and 2 Failures)](http://www.stat.ufl.edu/~aa/articles/agresti_caffo_2000.pdf)
+- [7 Tips for Interpreting Macroeconomic Data](https://www.milkenreview.org/articles/extracting-the-signal-from-the-noise-7-tips-for-interpreting-macroeconomic-data) (Jason Furman, CEA Chairman) [[pdf version](https://assets1c.milkeninstitute.org/assets/Publication/MIReview/PDF/26-38-MR72.pdf)]
+- [Confidence Interval Refinement (Add 2 Successes and 2 Failures)](https://www.stat.ufl.edu/~aa/articles/agresti_caffo_2000.pdf)
 
 ### Forecasting and Polling Module
-- [Overview of Common Issues in Polling and Survey Design](http://www.pewresearch.org/methodology/u-s-survey-research/sampling/) (Source: Pew Research)
+- [Overview of Common Issues in Polling and Survey Design](https://www.pewresearch.org/methodology/u-s-survey-research/sampling/) (Source: Pew Research)
 - [Slides](https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/slides/ForecastingModule/pollsForecasting.pdf)
 
 ## R Project Resources:
@@ -54,7 +54,7 @@ Your grades are posted on [Canvas](https://canvas.upenn.edu/). If you have quest
 
 ## Practice Exams:
 
-Generously provided by [Frank DiTraglia](http://ditraglia.com/)
+Generously provided by [Frank DiTraglia](https://ditraglia.com/)
 
 ### Midterm 1
 

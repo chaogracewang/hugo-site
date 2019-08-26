@@ -7,7 +7,7 @@ weight: 1
 
 interests:
   interests: 
-    - E-Commerce
+    - Retail
     - Industrial Organization
     - Data Science
 

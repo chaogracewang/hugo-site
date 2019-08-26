@@ -5,7 +5,7 @@
     
     <url>
     
-      <loc>/2018/07/mle-in-r/</loc>
+      <loc>https://www.mallickhossain.com/2018/07/mle-in-r/</loc>
       <lastmod>2018-07-05T00:00:00+00:00</lastmod>
     </url>
     
@@ -14,7 +14,7 @@
     
     <url>
     
-      <loc>/2018/03/data-table-analysis/</loc>
+      <loc>https://www.mallickhossain.com/2018/03/data-table-analysis/</loc>
       <lastmod>2018-03-06T00:00:00+00:00</lastmod>
     </url>
     
@@ -23,7 +23,7 @@
     
     <url>
     
-      <loc>/2017/12/r-for-stata-users-i/</loc>
+      <loc>https://www.mallickhossain.com/2017/12/r-for-stata-users-i/</loc>
       <lastmod>2017-12-16T00:00:00+00:00</lastmod>
     </url>
     
@@ -32,34 +32,7 @@
     
     <url>
     
-      <loc>/2017/12/data-table-analysis/</loc>
-      <lastmod>2017-12-16T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/2017/12/scraping-with-rvest/</loc>
-      <lastmod>2017-12-16T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/2017/12/scraping-javascript/</loc>
-      <lastmod>2017-12-16T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/project/viz/</loc>
+      <loc>https://www.mallickhossain.com/project/viz/</loc>
       <lastmod>2017-11-19T00:00:00+00:00</lastmod>
     </url>
     
@@ -68,7 +41,7 @@
     
     <url>
     
-      <loc>/publication/world-without-borders/</loc>
+      <loc>https://www.mallickhossain.com/publication/world-without-borders/</loc>
       <lastmod>2017-11-13T00:00:00+00:00</lastmod>
     </url>
     
@@ -77,7 +50,7 @@
     
     <url>
     
-      <loc>/talk/example-talk/</loc>
+      <loc>https://www.mallickhossain.com/talk/example-talk/</loc>
       <lastmod>2017-01-01T00:00:00-05:00</lastmod>
     </url>
     
@@ -86,7 +59,7 @@
     
     <url>
     
-      <loc>/post/</loc>
+      <loc>https://www.mallickhossain.com/post/</loc>
       <lastmod>2017-01-01T00:00:00-05:00</lastmod>
     </url>
     
@@ -95,7 +68,7 @@
     
     <url>
     
-      <loc>/tags/academic/</loc>
+      <loc>https://www.mallickhossain.com/tags/academic/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -104,7 +77,7 @@
     
     <url>
     
-      <loc>/publication/</loc>
+      <loc>https://www.mallickhossain.com/publication/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -113,7 +86,7 @@
     
     <url>
     
-      <loc>/talk/</loc>
+      <loc>https://www.mallickhossain.com/talk/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -122,7 +95,7 @@
     
     <url>
     
-      <loc>/publication_types/3/</loc>
+      <loc>https://www.mallickhossain.com/publication_types/3/</loc>
       <lastmod>2017-11-13T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -132,7 +105,7 @@
     
     <url>
     
-      <loc>/categories/</loc>
+      <loc>https://www.mallickhossain.com/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -141,7 +114,7 @@
     
     <url>
     
-      <loc>/categories/crash-course/</loc>
+      <loc>https://www.mallickhossain.com/categories/crash-course/</loc>
       <lastmod>2017-12-16T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -151,7 +124,7 @@
     
     <url>
     
-      <loc>/tags/data-visualization/</loc>
+      <loc>https://www.mallickhossain.com/tags/data-visualization/</loc>
       <lastmod>2017-11-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -161,9 +134,7 @@
     
     <url>
     
-      <loc>/categories/data.table/</loc>
-      <lastmod>2017-12-16T00:00:00+00:00</lastmod>
-      <priority>0</priority>
+      <loc>https://www.mallickhossain.com/project/econ-103/</loc>
     </url>
     
   
@@ -171,15 +142,7 @@
     
     <url>
     
-      <loc>/project/econ-103/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/categories/exercise/</loc>
+      <loc>https://www.mallickhossain.com/categories/exercise/</loc>
       <lastmod>2018-07-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -189,17 +152,7 @@
     
     <url>
     
-      <loc>/categories/javascript/</loc>
-      <lastmod>2017-12-16T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/</loc>
+      <loc>https://www.mallickhossain.com/</loc>
       <lastmod>2017-11-13T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -209,7 +162,7 @@
     
     <url>
     
-      <loc>/categories/maximum-likelihood-estimation/</loc>
+      <loc>https://www.mallickhossain.com/categories/maximum-likelihood-estimation/</loc>
       <lastmod>2018-07-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -219,7 +172,7 @@
     
     <url>
     
-      <loc>/project/</loc>
+      <loc>https://www.mallickhossain.com/project/</loc>
       <lastmod>2017-11-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -229,7 +182,7 @@
     
     <url>
     
-      <loc>/categories/public-finance/</loc>
+      <loc>https://www.mallickhossain.com/categories/public-finance/</loc>
       <lastmod>2018-03-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -239,7 +192,7 @@
     
     <url>
     
-      <loc>/publication_types/</loc>
+      <loc>https://www.mallickhossain.com/publication_types/</loc>
       <lastmod>2017-11-13T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -249,7 +202,7 @@
     
     <url>
     
-      <loc>/categories/r/</loc>
+      <loc>https://www.mallickhossain.com/categories/r/</loc>
       <lastmod>2018-07-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -259,27 +212,7 @@
     
     <url>
     
-      <loc>/categories/rvest/</loc>
-      <lastmod>2017-12-16T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/categories/scraping/</loc>
-      <lastmod>2017-12-16T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/categories/self-driving-cars/</loc>
+      <loc>https://www.mallickhossain.com/categories/self-driving-cars/</loc>
       <lastmod>2018-03-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -289,7 +222,7 @@
     
     <url>
     
-      <loc>/tags/shiny/</loc>
+      <loc>https://www.mallickhossain.com/tags/shiny/</loc>
       <lastmod>2017-11-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -299,7 +232,7 @@
     
     <url>
     
-      <loc>/tags/</loc>
+      <loc>https://www.mallickhossain.com/tags/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -309,7 +242,7 @@
     
     <url>
     
-      <loc>/tags/teaching/</loc>
+      <loc>https://www.mallickhossain.com/tags/teaching/</loc>
       <priority>0</priority>
     </url>
     
@@ -318,7 +251,7 @@
     
     <url>
     
-      <loc>/categories/technology/</loc>
+      <loc>https://www.mallickhossain.com/categories/technology/</loc>
       <lastmod>2018-03-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>

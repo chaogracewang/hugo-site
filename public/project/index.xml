@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Mallick Hossain</title>
-    <link>/project/</link>
+    <link>https://www.mallickhossain.com/project/</link>
     <description>Recent content in Projects on Mallick Hossain</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2017 Mallick Hossain</copyright>
@@ -11,10 +11,10 @@
     
     <item>
       <title>Data Visualization</title>
-      <link>/project/viz/</link>
+      <link>https://www.mallickhossain.com/project/viz/</link>
       <pubDate>Sun, 19 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>/project/viz/</guid>
+      <guid>https://www.mallickhossain.com/project/viz/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://emallickhossain.shinyapps.io/shinyapp/&#34;&gt;Time Use Analysis&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -23,10 +23,10 @@
     
     <item>
       <title>Econ 103</title>
-      <link>/project/econ-103/</link>
+      <link>https://www.mallickhossain.com/project/econ-103/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/project/econ-103/</guid>
+      <guid>https://www.mallickhossain.com/project/econ-103/</guid>
       <description>
 
 &lt;h2 id=&#34;grades-and-questions&#34;&gt;Grades and Questions:&lt;/h2&gt;

@@ -27,7 +27,7 @@ tags: []
 
 <div id="intro" class="section level1">
 <h1>Intro</h1>
-<p>This tutorial will demonstrate the power of <code>data.table</code> for cleaning and analyzing data. I will apply it to New York City’s Restaurant Inspection data.<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a> As a quick background, since 2010, New York City has required restaurants to post their health grades and inspection results. During inspection, for every health code violation, a restaurant earns points. Therefore, the lower a restaurant’s score, the safer the restaurant. With that out of the way, let’s dig into the data like it’s a delicious slice of New York style pizza.<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a></p>
+<p>This tutorial will demonstrate the power of <code>data.table</code> for cleaning and analyzing data. I will apply it to New York City’s Restaurant Inspection data.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> As a quick background, since 2010, New York City has required restaurants to post their health grades and inspection results. During inspection, for every health code violation, a restaurant earns points. Therefore, the lower a restaurant’s score, the safer the restaurant. With that out of the way, let’s dig into the data like it’s a delicious slice of New York style pizza.<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></p>
 <p>To guide ourselves, we will try to answer two questions:</p>
 <ol style="list-style-type: decimal">
 <li><strong>Which borough has the safest food?</strong></li>
@@ -41,7 +41,7 @@ tags: []
 food &lt;- fread(&quot;https://data.cityofnewyork.us/api/views/43nn-pn8j/rows.csv?accessType=DOWNLOAD&quot;,
               select = c(&quot;CAMIS&quot;, &quot;INSPECTION TYPE&quot;, &quot;INSPECTION DATE&quot;, &quot;BORO&quot;, 
                          &quot;CUISINE DESCRIPTION&quot;, &quot;SCORE&quot;))</code></pre>
-<p>Uh oh, we got a warning message! The good thing is that the error is quite informative. <code>data.table</code> did the right thing and we can rest easy.<a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a></p>
+<p>Uh oh, we got a warning message! The good thing is that the error is quite informative. <code>data.table</code> did the right thing and we can rest easy.<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a></p>
 <div id="data-structure" class="section level2">
 <h2>Data Structure</h2>
 <p>Now what does our data look like? One easy way of examining the data is to use the <code>str()</code> command (which is short for “structure”). We see that the data is organized as a data.table and every column is stored as a character except CAMIS and SCORE.</p>
@@ -87,7 +87,7 @@ print(food)</code></pre>
 ## 386787:     BRONX            American    20
 ## 386788:  BROOKLYN             Chinese    24
 ## 386789: MANHATTAN    CafÃ©/Coffee/Tea    11</code></pre>
-<p>Now we’re cookin’!<a href="#fn4" class="footnoteRef" id="fnref4"><sup>4</sup></a> This is already looking like some data we can handle!</p>
+<p>Now we’re cookin’!<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a> This is already looking like some data we can handle!</p>
 <pre class="r"><code>avg_score_borough &lt;- food[, .(Score = mean(SCORE, na.rm = TRUE)), by = BORO]
 print(avg_score_borough)</code></pre>
 <pre><code>##             BORO    Score
@@ -97,16 +97,16 @@ print(avg_score_borough)</code></pre>
 ## 4:         BRONX 18.17916
 ## 5: STATEN ISLAND 19.45424
 ## 6:       Missing 17.27273</code></pre>
-<p>Surprisingly, the Bronx has the safest restaurants on average!<a href="#fn5" class="footnoteRef" id="fnref5"><sup>5</sup></a></p>
+<p>Surprisingly, the Bronx has the safest restaurants on average!<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a></p>
 </div>
 </div>
 <div class="footnotes">
 <hr />
 <ol>
-<li id="fn1"><p>Delicious food is fun, food poisoning isn’t.<a href="#fnref1">↩</a></p></li>
-<li id="fn2"><p>Pizza is delicious no matter where you are.<a href="#fnref2">↩</a></p></li>
-<li id="fn3"><p>If you want details, basically, <code>data.table</code> thought column 7 was an integer or numeric column, but had to convert that to a character instead. It turns out <code>data.table</code>’s initial guess was actually right (since column 7 is for phone numbers), but the “_______” is not numeric, so to try and preserve data, <code>data.table</code> read in column 7 as a string. <code>fread()</code> guesses the column type by working its way through the ordered list <code>logical</code>, <code>integer</code>, <code>integer64</code>, <code>double</code>, and <code>character</code><a href="#fnref3">↩</a></p></li>
-<li id="fn4"><p>pun intended<a href="#fnref4">↩</a></p></li>
-<li id="fn5"><p>It turns out there are a lot of mistakes in the above analysis. I will correct them in the next post. To name a few, first, this is pooled across all inspection types and we likely just care about regular food safety inspections. Second, an observation in this data set is a restaurant violation and hence restaurants with more violations show up multiple times with the same score. We will need to remove duplicate restaurant grades. Finally, these scores are across 2014-2017. Splitting up by year would be better to identify improvement.<a href="#fnref5">↩</a></p></li>
+<li id="fn1"><p>Delicious food is fun, food poisoning isn’t.<a href="#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn2"><p>Pizza is delicious no matter where you are.<a href="#fnref2" class="footnote-back">↩</a></p></li>
+<li id="fn3"><p>If you want details, basically, <code>data.table</code> thought column 7 was an integer or numeric column, but had to convert that to a character instead. It turns out <code>data.table</code>’s initial guess was actually right (since column 7 is for phone numbers), but the “_______” is not numeric, so to try and preserve data, <code>data.table</code> read in column 7 as a string. <code>fread()</code> guesses the column type by working its way through the ordered list <code>logical</code>, <code>integer</code>, <code>integer64</code>, <code>double</code>, and <code>character</code><a href="#fnref3" class="footnote-back">↩</a></p></li>
+<li id="fn4"><p>pun intended<a href="#fnref4" class="footnote-back">↩</a></p></li>
+<li id="fn5"><p>It turns out there are a lot of mistakes in the above analysis. I will correct them in the next post. To name a few, first, this is pooled across all inspection types and we likely just care about regular food safety inspections. Second, an observation in this data set is a restaurant violation and hence restaurants with more violations show up multiple times with the same score. We will need to remove duplicate restaurant grades. Finally, these scores are across 2014-2017. Splitting up by year would be better to identify improvement.<a href="#fnref5" class="footnote-back">↩</a></p></li>
 </ol>
 </div>

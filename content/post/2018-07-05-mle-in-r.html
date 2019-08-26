@@ -17,9 +17,11 @@ tags: []
 
 
 <p><strong>Note: This exercise is borrowed from <a href="https://jblevins.org/log/r-mle">Jason Blevins</a></strong></p>
-<p>This is a short exercise in running maximum likelihood estimation (MLE) in R. We will do it for the following AR(1) process: <span class="math display">\[
+<p>This is a short exercise in running maximum likelihood estimation (MLE) in R. We will do it for the following AR(1) process:
+<span class="math display">\[
 z_t = \mu + \rho (z_{t - 1} - \mu) + \sigma \varepsilon_t
-\]</span> where <span class="math inline">\(\varepsilon_t \sim N(0, 1)\)</span>.</p>
+\]</span>
+where <span class="math inline">\(\varepsilon_t \sim N(0, 1)\)</span>.</p>
 <p>Before I get into the details of MLE, what is the fundamental insight of MLE? The idea is that we want to estimate the parameters of the model that are generating our data. There are some “true” parameters that we are trying to estimate (<span class="math inline">\(\mu\)</span>, <span class="math inline">\(\rho\)</span>, and <span class="math inline">\(\sigma\)</span>), but we cannot directly observe them. MLE asserts that for given parameters values, we can compute the probability of seeing our specific draw of the data (i.e. the “likelihood” of the data). MLE says that the best guess of these parameters is the one that maximizes this likelihood.</p>
 <p>So, back to the exercise. We want to perform MLE to estimate the above AR(1) process. First, let’s get some data. We’ll assume that the true parameter values are <span class="math inline">\(\mu = -0.5\)</span>, <span class="math inline">\(\rho = 0.9\)</span>, and <span class="math inline">\(\sigma = 1\)</span>. I also set the seed of the random number generator so that anyone running this script will be able to reproduce these results.</p>
 <pre class="r"><code>set.seed(100)
@@ -33,7 +35,7 @@ sigma &lt;- 1.0</code></pre>
 z &lt;- double(periods)</code></pre>
 <p>I need to draw an initial value of <span class="math inline">\(z_1\)</span> from which to generate the full stream of data. Plugging in <span class="math inline">\(z\)</span> recursively, we can show that the unconditional distribution of <span class="math inline">\(z\)</span> is <span class="math inline">\(N(\mu, \sigma^2 / (1 - \rho^2))\)</span></p>
 <pre class="r"><code>z[1] &lt;- rnorm(1, mean = mu, sd = sigma / sqrt(1 - rho^2))</code></pre>
-<p>Now, I generate the rest of the data.<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a></p>
+<p>Now, I generate the rest of the data.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
 <pre class="r"><code>eps &lt;- rnorm(9999)
 for (i in 2:periods) {
   z[i] &lt;- mu + rho * (z[i - 1] - mu) + eps[i - 1]
@@ -57,11 +59,13 @@ for (i in 2:periods) {
 <p>However, since our data comes from an AR(1) process, we can leverage the fact that it will be conditionally independent given the previous data point. In particular, the likelihood will be the following product:</p>
 <p><span class="math display">\[
 \mathcal{L}(\theta ; z) = \prod_t f(z_t | z_{t - 1}, \theta)
-\]</span> To make this more convenient to work with, we take the natural log since this converts the product into a sum. <span class="math display">\[
+\]</span>
+To make this more convenient to work with, we take the natural log since this converts the product into a sum.
+<span class="math display">\[
 \ell (\theta ; z) = \sum_t \ln f(z_t | z_{t - 1}, \theta)
 \]</span></p>
 <p>Before we can code up the likelihood, we need to know what <span class="math inline">\(f\)</span> looks like. Looking at the AR(1) representation, we can show that <span class="math inline">\(z_t | z_{t - 1} \sim N(\mu + \rho (z_{t - 1} - \mu), \sigma^2)\)</span></p>
-<p>Now that we know what the conditional distribution of <span class="math inline">\(z\)</span> is, we can code our likelihood function and let R do the rest of the work. The optimizer that we will use in R will find the minimum of our function, so we take the negative of everything.<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a> I store our parameters in <span class="math inline">\(\theta = \{\mu, \rho, \sigma \}\)</span>.</p>
+<p>Now that we know what the conditional distribution of <span class="math inline">\(z\)</span> is, we can code our likelihood function and let R do the rest of the work. The optimizer that we will use in R will find the minimum of our function, so we take the negative of everything.<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> I store our parameters in <span class="math inline">\(\theta = \{\mu, \rho, \sigma \}\)</span>.</p>
 <pre class="r"><code>logl &lt;- function(theta, data) {
   mu &lt;- theta[1]
   rho &lt;- theta[2]
@@ -91,7 +95,7 @@ out &lt;- suppressWarnings(nlm(logl, theta1, data = z))</code></pre>
 <div class="footnotes">
 <hr />
 <ol>
-<li id="fn1"><p>For efficiency, I make all of the error draws outside of the loop. Given that we’re only doing 10,000 simulations, this probably does not significantly affect performance, but for larger simulations, it’s much better to make draws outside of a loop.<a href="#fnref1">↩</a></p></li>
-<li id="fn2"><p>Maximizing a function is equivalent to minimizing the negative of the function<a href="#fnref2">↩</a></p></li>
+<li id="fn1"><p>For efficiency, I make all of the error draws outside of the loop. Given that we’re only doing 10,000 simulations, this probably does not significantly affect performance, but for larger simulations, it’s much better to make draws outside of a loop.<a href="#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn2"><p>Maximizing a function is equivalent to minimizing the negative of the function<a href="#fnref2" class="footnote-back">↩</a></p></li>
 </ol>
 </div>

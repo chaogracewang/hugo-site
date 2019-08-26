@@ -32,12 +32,9 @@ tags: []
 </div>
 <div id="project-background" class="section level1">
 <h1>Project Background</h1>
-<p>Online prices can be different from offline prices and for a long time, large companies like Target and Walmart did not match their online prices (they only started in 2013 and 2014, respectively).<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a> <a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a> Even now, Macy’s still does not match the prices on their website.<a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a></p>
-<p>In order to get the offline prices of goods, you would have to go into the store and compare the shelf price to the website price. However, in November 2017, Walmart actually increased its online prices and posted both the online and in-store price on its website.<a href="#fn4" class="footnoteRef" id="fnref4"><sup>4</sup></a> This change creates a unique opportunity to generate a fascinating data set of online and offline prices from one of the world’s largest retailers.</p>
-<div class="figure">
-<img src="/img/walmartPrice.png" />
-
-</div>
+<p>Online prices can be different from offline prices and for a long time, large companies like Target and Walmart did not match their online prices (they only started in 2013 and 2014, respectively).<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> <a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> Even now, Macy’s still does not match the prices on their website.<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a></p>
+<p>In order to get the offline prices of goods, you would have to go into the store and compare the shelf price to the website price. However, in November 2017, Walmart actually increased its online prices and posted both the online and in-store price on its website.<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a> This change creates a unique opportunity to generate a fascinating data set of online and offline prices from one of the world’s largest retailers.</p>
+<p><img src="/img/walmartPrice.png" /></p>
 </div>
 <div id="how-scraping-works" class="section level1">
 <h1>How Scraping Works</h1>
@@ -45,7 +42,7 @@ tags: []
 </div>
 <div id="getting-prices" class="section level1">
 <h1>Getting Prices</h1>
-<p>For this exercise, I will get the prices of Kraft Macaroni and Cheese.<a href="#fn5" class="footnoteRef" id="fnref5"><sup>5</sup></a> Before beginning, I looked at what data was available on the page and identified specific fields that I wanted to capture. Below are the fields I will capture:</p>
+<p>For this exercise, I will get the prices of Kraft Macaroni and Cheese.<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a> Before beginning, I looked at what data was available on the page and identified specific fields that I wanted to capture. Below are the fields I will capture:</p>
 <ul>
 <li>Date</li>
 <li>Product Name</li>
@@ -71,10 +68,10 @@ pear &lt;- read_html(trip) %&gt;%
 <div class="footnotes">
 <hr />
 <ol>
-<li id="fn1"><p>See Target’s January 8, 2013 press release “Target Announces New Year-Round Price Match of Online Retailers”<a href="#fnref1">↩</a></p></li>
-<li id="fn2"><p>See Walmart’s November 19, 2014 press release “Walmart Statement Regarding Online Price Match Policy”<a href="#fnref2">↩</a></p></li>
-<li id="fn3"><p>See <a href="https://www.customerservice-macys.com/app/answers/detail/a_id/14/~/pricing-policy-for-online-merchandise">Macy’s Pricing Policy for Online Merchandise</a> accessed December 16, 2017.<a href="#fnref3">↩</a></p></li>
-<li id="fn4"><p>See November 12, 2017 WSJ article <a href="https://www.wsj.com/articles/now-featured-on-wal-marts-website-higher-prices-1510517219">Now Featured on Wal-Mart’s Website: Higher Prices Than Stores</a><a href="#fnref4">↩</a></p></li>
-<li id="fn5"><p>It’s the cheesiest.<a href="#fnref5">↩</a></p></li>
+<li id="fn1"><p>See Target’s January 8, 2013 press release “Target Announces New Year-Round Price Match of Online Retailers”<a href="#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn2"><p>See Walmart’s November 19, 2014 press release “Walmart Statement Regarding Online Price Match Policy”<a href="#fnref2" class="footnote-back">↩</a></p></li>
+<li id="fn3"><p>See <a href="https://www.customerservice-macys.com/app/answers/detail/a_id/14/~/pricing-policy-for-online-merchandise">Macy’s Pricing Policy for Online Merchandise</a> accessed December 16, 2017.<a href="#fnref3" class="footnote-back">↩</a></p></li>
+<li id="fn4"><p>See November 12, 2017 WSJ article <a href="https://www.wsj.com/articles/now-featured-on-wal-marts-website-higher-prices-1510517219">Now Featured on Wal-Mart’s Website: Higher Prices Than Stores</a><a href="#fnref4" class="footnote-back">↩</a></p></li>
+<li id="fn5"><p>It’s the cheesiest.<a href="#fnref5" class="footnote-back">↩</a></p></li>
 </ol>
 </div>

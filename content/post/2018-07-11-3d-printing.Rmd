@@ -1,0 +1,17 @@
+---
+title: "Trade with 3D Printing"
+author: "Mallick Hossain"
+date: "2018-07-11"
+slug: 3d-printing-trade
+draft: true
+output:
+  blogdown::html_page:
+    toc: true
+categories:
+  - R
+  - 3D-printing
+  - Trade
+tags: []
+---
+
+3D-printing has the potential to upend a lot of traditional economic sectors. We have already seen  ranging from manufacturing and assembly to trade and retail. 

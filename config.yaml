@@ -1,4 +1,4 @@
-baseURL: "http://www.mallickhossain.com/"
+baseURL: "https://www.mallickhossain.com/"
 title: "Mallick Hossain"
 copyright: "&copy; 2017 Mallick Hossain"
 theme: "hugo-academic"
@@ -69,7 +69,7 @@ params:
 
     - icon: "github"
       icon_pack: "fa"
-      link: "//github.com/emallickhossain"
+      link: "https://github.com/emallickhossain"
 
     - icon: "linkedin"
       icon_pack: "fa"
