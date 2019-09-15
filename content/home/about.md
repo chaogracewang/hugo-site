@@ -15,7 +15,7 @@ education:
   courses:
     - course: "PhD in Economics"
       institution: "University of Pennsylvania"
-      year: 2019
+      year: 2020
   
     - course: "MS in Mathematics"
       institution: "University of Alabama at Birmingham"
