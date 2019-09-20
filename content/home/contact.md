@@ -2,7 +2,7 @@
 widget: "contact"
 slug: "contact"
 active: true
-date: "2017-11-13"
+date: "2019-09-20"
 title: "Contact"
 weight: 70
 

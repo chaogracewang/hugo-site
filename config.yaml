@@ -1,6 +1,6 @@
 baseURL: "https://www.mallickhossain.com/"
 title: "Mallick Hossain"
-copyright: "&copy; 2017 Mallick Hossain"
+copyright: "&copy; 2019 Mallick Hossain"
 theme: "hugo-academic"
 enableEmoji: true
 footnotereturnlinkcontents: "↩"
@@ -29,7 +29,7 @@ params:
   name: "Mallick Hossain"
   role: "Economics PhD Candidate"
   organization: "University of Pennsylvania"
-  organization_url: "https://economics.sas.upenn.edu/graduate-program/current-students/mallick-hossain"
+  organization_url: "https://economics.sas.upenn.edu/people/mallick-hossain"
   avatar: "headshot_small.jpg"
   email: "hossaine@sas.upenn.edu"
   address: "628 Perelman Center <br> 133 South 36th Street <br> Philadelphia PA 19104"
@@ -92,7 +92,7 @@ menu:
       weight: 1
 
     - name: "CV"
-      url: "https://docs.google.com/viewerng/viewer?url=https://github.com/emallickhossain/HossainCV/raw/master/HossainCV.pdf?dl%3D0&hl=en_US"
+      url: "https://github.com/emallickhossain/HossainCV/blob/master/HossainCV.pdf"
       weight: 2
 
     - name: "Research"
@@ -103,10 +103,6 @@ menu:
       url: "#projects"
       weight: 4
 
-    - name: "Posts"
-      url: "#posts"
-      weight: 5
-
     - name: "Contact"
       url: "#contact"
-      weight: 6
+      weight: 5

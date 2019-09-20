@@ -2,22 +2,23 @@
 widget: "about"
 slug: "about"
 active: true
-date: "2017-11-13"
+date: "2019-09-20"
 weight: 1
 
 interests:
   interests: 
-    - Retail
+    - Applied Microeconomics
     - Industrial Organization
-    - Data Science
+    - Retail
+    - Inequality
 
 education:
   courses:
-    - course: "PhD in Economics"
+    - course: "PhD, Economics"
       institution: "University of Pennsylvania"
       year: 2020
   
-    - course: "MS in Mathematics"
+    - course: "MS, Mathematics"
       institution: "University of Alabama at Birmingham"
       year: 2013
  
@@ -26,7 +27,9 @@ education:
       year: 2013
 ---
 
-# About Me
+# About Me 
+
+[Curriculum Vitae](https://github.com/emallickhossain/HossainCV/blob/master/HossainCV.pdf)
 
 I am a PhD candidate in Economics at the University of Pennsylvania interested in inequality, consumer behavior, and industrial organization. My research focuses on how bulk discounts increase inequality. Previously, I have explored the effects of sales tax collection on online shopping.
 

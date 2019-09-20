@@ -2,36 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Mallick Hossain</title>
-    <link>https://www.mallickhossain.com/project/</link>
+    <link>/project/</link>
     <description>Recent content in Projects on Mallick Hossain</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>&amp;copy; 2017 Mallick Hossain</copyright>
+    <copyright>&amp;copy; 2019 Mallick Hossain</copyright>
     <lastBuildDate>Sun, 19 Nov 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/project/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Data Visualization</title>
-      <link>https://www.mallickhossain.com/project/viz/</link>
+      <link>/project/archive/viz/</link>
       <pubDate>Sun, 19 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mallickhossain.com/project/viz/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://emallickhossain.shinyapps.io/shinyapp/&#34;&gt;Time Use Analysis&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+      <guid>/project/archive/viz/</guid>
+      <description>&lt;!-- * [Time Use Analysis](https://emallickhossain.shinyapps.io/shinyapp/) --&gt;
 </description>
     </item>
     
     <item>
       <title>Econ 103</title>
-      <link>https://www.mallickhossain.com/project/econ-103/</link>
+      <link>/project/econ-103/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mallickhossain.com/project/econ-103/</guid>
+      <guid>/project/econ-103/</guid>
       <description>
 
 &lt;h2 id=&#34;grades-and-questions&#34;&gt;Grades and Questions:&lt;/h2&gt;
 
-&lt;p&gt;Your grades are posted on &lt;a href=&#34;https://canvas.upenn.edu/&#34; target=&#34;_blank&#34;&gt;Canvas&lt;/a&gt;. If you have questions, post them on &lt;a href=&#34;http://piazza.com&#34; target=&#34;_blank&#34;&gt;Piazza&lt;/a&gt;. My office hours are on Tuesdays from 8-9AM and on Wednesdays from 4-5PM (right before class). If you need to make an appointment, just email me.&lt;/p&gt;
+&lt;p&gt;Your grades are posted on &lt;a href=&#34;https://canvas.upenn.edu/&#34; target=&#34;_blank&#34;&gt;Canvas&lt;/a&gt;. If you have questions, post them on &lt;a href=&#34;https://piazza.com&#34; target=&#34;_blank&#34;&gt;Piazza&lt;/a&gt;. My office hours are on Tuesdays from 8-9AM and on Wednesdays from 4-5PM (right before class). If you need to make an appointment, just email me.&lt;/p&gt;
 
 &lt;h2 id=&#34;course-documents&#34;&gt;Course Documents:&lt;/h2&gt;
 
@@ -40,14 +38,14 @@
 &lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/HowToDoWell.pdf&#34; target=&#34;_blank&#34;&gt;How to do well in Econ 103&lt;/a&gt;: Some tips for the course.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/ClassicalProbability.pdf&#34; target=&#34;_blank&#34;&gt;Combinations and Permutations&lt;/a&gt;: A review&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/RandomVariablesHandout.pdf&#34; target=&#34;_blank&#34;&gt;Random Variables Handout&lt;/a&gt; Useful discussion about probability distributions: &lt;a href=&#34;http://people.stern.nyu.edu/adamodar/New_Home_Page/StatFile/statdistns.htm&#34; target=&#34;_blank&#34;&gt;NYU Stern&lt;/a&gt;, &lt;a href=&#34;http://blog.cloudera.com/blog/2015/12/common-probability-distributions-the-data-scientists-crib-sheet/&#34; target=&#34;_blank&#34;&gt;Cloudera&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.milkenreview.org/articles/extracting-the-signal-from-the-noise-7-tips-for-interpreting-macroeconomic-data&#34; target=&#34;_blank&#34;&gt;7 Tips for Interpreting Macroeconomic Data&lt;/a&gt; (Jason Furman, CEA Chairman) [&lt;a href=&#34;http://assets1c.milkeninstitute.org/assets/Publication/MIReview/PDF/26-38-MR72.pdf&#34; target=&#34;_blank&#34;&gt;pdf version&lt;/a&gt;]&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.stat.ufl.edu/~aa/articles/agresti_caffo_2000.pdf&#34; target=&#34;_blank&#34;&gt;Confidence Interval Refinement (Add 2 Successes and 2 Failures)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.milkenreview.org/articles/extracting-the-signal-from-the-noise-7-tips-for-interpreting-macroeconomic-data&#34; target=&#34;_blank&#34;&gt;7 Tips for Interpreting Macroeconomic Data&lt;/a&gt; (Jason Furman, CEA Chairman) [&lt;a href=&#34;https://assets1c.milkeninstitute.org/assets/Publication/MIReview/PDF/26-38-MR72.pdf&#34; target=&#34;_blank&#34;&gt;pdf version&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.stat.ufl.edu/~aa/articles/agresti_caffo_2000.pdf&#34; target=&#34;_blank&#34;&gt;Confidence Interval Refinement (Add 2 Successes and 2 Failures)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;forecasting-and-polling-module&#34;&gt;Forecasting and Polling Module&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.pewresearch.org/methodology/u-s-survey-research/sampling/&#34; target=&#34;_blank&#34;&gt;Overview of Common Issues in Polling and Survey Design&lt;/a&gt; (Source: Pew Research)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pewresearch.org/methodology/u-s-survey-research/sampling/&#34; target=&#34;_blank&#34;&gt;Overview of Common Issues in Polling and Survey Design&lt;/a&gt; (Source: Pew Research)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?url=https://github.com/emallickhossain/Econ103Public/raw/master/slides/ForecastingModule/pollsForecasting.pdf&#34; target=&#34;_blank&#34;&gt;Slides&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -76,7 +74,7 @@
 
 &lt;h2 id=&#34;practice-exams&#34;&gt;Practice Exams:&lt;/h2&gt;
 
-&lt;p&gt;Generously provided by &lt;a href=&#34;http://ditraglia.com/&#34; target=&#34;_blank&#34;&gt;Frank DiTraglia&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Generously provided by &lt;a href=&#34;https://ditraglia.com/&#34; target=&#34;_blank&#34;&gt;Frank DiTraglia&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;midterm-1&#34;&gt;Midterm 1&lt;/h3&gt;
 

@@ -3,7 +3,7 @@
 # Note: this widget will only display if `content/project/` contains projects.
 date: "2017-11-18"
 draft: false
-title: "Teaching and Projects"
+title: "Teaching"
 widget: "projects"
 
 # Order that this section will appear in.

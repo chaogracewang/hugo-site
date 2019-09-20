@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Mallick Hossain</title>
-    <link>https://www.mallickhossain.com/publication/</link>
+    <link>/publication/</link>
     <description>Recent content in Publications on Mallick Hossain</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>&amp;copy; 2017 Mallick Hossain</copyright>
+    <copyright>&amp;copy; 2019 Mallick Hossain</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/publication/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>A World Without Borders Revisited: The Impact of Sales Tax Collection on Shopping and Search</title>
-      <link>https://www.mallickhossain.com/publication/world-without-borders/</link>
+      <link>/publication/archive/world-without-borders/</link>
       <pubDate>Mon, 13 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.mallickhossain.com/publication/world-without-borders/</guid>
+      <guid>/publication/archive/world-without-borders/</guid>
       <description></description>
     </item>
     
