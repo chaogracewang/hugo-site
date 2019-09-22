@@ -9,7 +9,7 @@ interests:
   interests: 
     - Applied Microeconomics
     - Industrial Organization
-    - Inequality
+    - Public Economics
 
 education:
   courses:
@@ -30,6 +30,6 @@ education:
 
 [Curriculum Vitae](https://github.com/emallickhossain/HossainCV/blob/master/HossainCV.pdf)
 
-I am a PhD candidate in Economics at the University of Pennsylvania with research interests in  inequality, consumer behavior, and industrial organization. My research focuses on how bulk discounts increase inequality.
+I am a PhD candidate in Economics at the University of Pennsylvania with research interests in empirical microeconomics, industrial organization, and public economics. My research focuses on how bulk discounts increase inequality.
 
 
