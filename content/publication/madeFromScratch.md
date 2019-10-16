@@ -1,6 +1,6 @@
 ---
 title: "Made from Scratch: SNAP and Lottery Sales (In progress)"
-date: "2019-10-16"
+date: "2019-10-01"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors:

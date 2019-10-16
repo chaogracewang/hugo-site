@@ -1,6 +1,6 @@
 ---
 title: "Going Off-Script: Physician License Suspensions and Primary Care Access for Medicaid Recipients (In progress)"
-date: "2019-10-16"
+date: "2019-10-01"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors:
