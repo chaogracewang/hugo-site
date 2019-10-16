@@ -32,6 +32,6 @@ education:
 
 [University Page](https://economics.sas.upenn.edu/people/mallick-hossain)
 
-I am a PhD candidate in Economics at the University of Pennsylvania with research interests in empirical microeconomics, industrial organization, and public economics. My research focuses on how bulk discounts increase inequality.
+I am a PhD candidate in Economics at the University of Pennsylvania with research interests in applied microeconomics, industrial organization, and public economics. My research focuses on understanding the reasons why low-income households are less likely to use bulk discounts to save money and how this difference affects inequality.
 
 
