@@ -100,7 +100,7 @@ menu:
       weight: 3
 
     - name: "Teaching"
-      url: "#project"
+      url: "#projects"
       weight: 4
 
     - name: "Contact"
