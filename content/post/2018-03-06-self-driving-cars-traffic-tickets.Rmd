@@ -3,7 +3,7 @@ title: Self-Driving Cars and Traffic Tickets
 author: Mallick Hossain
 date: '2018-03-06'
 slug: data-table-analysis
-draft: false
+draft: true
 output:
   blogdown::html_page:
     toc: true
