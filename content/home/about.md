@@ -33,6 +33,4 @@ education:
 
 [University Page](https://economics.sas.upenn.edu/people/mallick-hossain)
 
-I am a PhD candidate in Economics at the University of Pennsylvania with research interests in applied microeconomics, industrial organization, public economics, and health economics. My research focuses on understanding the reasons why low-income households are less likely to use bulk discounts to save money and how this difference affects inequality.
-
-
+Mallick Hossain is a PhD candidate in Economics at the University of Pennsylvania with research interests in applied microeconomics, industrial organization, public economics, and health economics. His research focuses on understanding how local economic environments affect consumer decisions. In particular, he studies the reasons why low-income households are less likely to use bulk discounts to save money and how this difference affects inequality. During graduate school, Mallick worked as a Staff Economist for President Obama's Council of Economic Advisers and for the Census Bureau. 
