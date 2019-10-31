@@ -92,7 +92,7 @@ menu:
       weight: 1
 
     - name: "CV"
-      url: "https://github.com/emallickhossain/HossainCV/blob/master/HossainCV.pdf"
+      url: "pdf/HossainCV.pdf"
       weight: 2
 
     - name: "Research"

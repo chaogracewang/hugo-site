@@ -29,7 +29,7 @@ education:
 
 # About Me 
 
-[Curriculum Vitae](https://github.com/emallickhossain/HossainCV/blob/master/HossainCV.pdf)
+[Curriculum Vitae](/pdf/HossainCV.pdf)
 
 [University Page](https://economics.sas.upenn.edu/people/mallick-hossain)
 
