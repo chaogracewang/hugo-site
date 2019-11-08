@@ -1,5 +1,5 @@
 ---
-title: "Less is More Expensive: Bulk Buying and Inequality (JOB MARKET PAPER)"
+title: "Less is More Expensive: Income Differences in Bulk Buying (JOB MARKET PAPER)"
 date: "2019-10-16"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
