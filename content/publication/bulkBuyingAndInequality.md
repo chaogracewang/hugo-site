@@ -35,7 +35,7 @@ selected: false
 projects: []
 
 # Links (optional).
-url_pdf: "https://github.com/emallickhossain/WarehouseClubs/raw/master/code/6_paper/BulkBuyingInequality.pdf"
+url_pdf: "pdf/BulkBuyingInequality.pdf"
 url_preprint: ""
 url_code: ""
 url_dataset: ""
